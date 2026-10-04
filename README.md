@@ -1,6 +1,6 @@
 # Dax Ricaud | Recherches artistiques
 
-Première version statique du site `Le Registre des recherches`.
+Version statique bilingue du site `Le Registre des recherches`.
 
 ## Ouvrir localement
 
@@ -23,4 +23,4 @@ Ne jamais lancer cette commande depuis la racine `TheSystemian/`: cela rendrait 
 
 ## État
 
-Version 0.1. La seule recherche publiée dans cette première maquette est `Signatures temporelles`. Les autres colonnes restent volontairement vides jusqu'à validation de leur contenu public.
+Version 0.2. Le site comprend les versions française et anglaise, un timestamp vivant en UTC+4 et un portrait de l'artiste. La seule recherche publiée est `Signatures temporelles`. Les autres colonnes restent volontairement vides jusqu'à validation de leur contenu public.

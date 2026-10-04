@@ -18,7 +18,8 @@
   h4,
   p,
   dl,
-  dd {
+  dd,
+  figure {
     margin: 0;
   }
 
@@ -116,6 +117,7 @@
 
   .site-header nav {
     display: flex;
+    align-items: center;
     gap: clamp(1rem, 3vw, 2.5rem);
   }
 
@@ -132,6 +134,48 @@
     gap: 1.5rem;
     padding-block: var(--section-space);
     border-bottom: 1px solid var(--line);
+  }
+
+  .live-time {
+    width: min(100%, 92rem);
+    margin-block: clamp(1rem, 3vw, 3rem);
+  }
+
+  #live-timestamp {
+    display: block;
+    overflow: hidden;
+    font-family: var(--font-mono);
+    font-size: clamp(2.35rem, 8vw, 8rem);
+    line-height: 0.95;
+    letter-spacing: -0.075em;
+    white-space: nowrap;
+  }
+
+  .time-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.25rem;
+    color: var(--graphite);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+  }
+
+  .minute-track {
+    height: 1px;
+    margin-top: 0.75rem;
+    overflow: hidden;
+    background: var(--line);
+  }
+
+  .minute-track span {
+    display: block;
+    width: var(--minute-progress, 0%);
+    height: 100%;
+    background: var(--ink);
+    transition: width 0.3s linear;
   }
 
   .hero-copy {
@@ -162,7 +206,6 @@
   }
 
   .section-heading,
-  .about,
   .contact {
     display: grid;
     grid-template-columns: minmax(0, 1.3fr) minmax(16rem, 0.7fr);
@@ -170,8 +213,15 @@
     align-items: end;
   }
 
+  .about {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(12rem, 0.55fr) minmax(16rem, 0.75fr);
+    gap: clamp(2rem, 5vw, 6rem);
+    align-items: end;
+  }
+
   .section-note,
-  .about > p,
+  .about-copy,
   .contact-copy {
     max-width: 38rem;
     color: var(--graphite);
@@ -367,6 +417,44 @@
     font-size: 0.9rem;
   }
 
+  .portrait {
+    width: 100%;
+    max-width: 22rem;
+    aspect-ratio: 4 / 5;
+    justify-self: center;
+    overflow: hidden;
+    background: var(--line);
+  }
+
+  .portrait img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    filter: grayscale(1) contrast(1.04);
+    mix-blend-mode: multiply;
+  }
+
+  .about-copy {
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  .language-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: var(--graphite);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.055em;
+  }
+
+  .language-switch [aria-current="page"] {
+    color: var(--ink);
+  }
+
   .contact-link {
     width: fit-content;
     color: var(--ink);
@@ -379,8 +467,24 @@
 
 @layer utilities {
   @media (max-width: 760px) {
-    .site-header nav a:not(:first-child) {
+    .site-header nav {
+      gap: 0.8rem;
+    }
+
+    .site-header nav > a:not(:first-child) {
       display: none;
+    }
+
+    .language-switch a {
+      display: inline;
+    }
+
+    #live-timestamp {
+      font-size: clamp(1.75rem, 10.5vw, 3.75rem);
+    }
+
+    .time-meta {
+      font-size: 0.62rem;
     }
 
     .section-heading,
