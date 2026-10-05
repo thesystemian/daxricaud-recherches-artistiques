@@ -9,8 +9,8 @@
     />
     <meta name="theme-color" content="#f7f6f2" />
     <title>Dax Ricaud | Recherches artistiques</title>
-    <link rel="stylesheet" href="./styles.css?v=0.6.0" />
-    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./styles.css?v=0.7.0" />
+    <script src="./script.js?v=0.7.0" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#registre">Aller au registre</a>
@@ -36,11 +36,11 @@
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
-        <p class="eyebrow">REGISTRE PUBLIC / VERSION 0.6</p>
+        <p class="eyebrow">REGISTRE PUBLIC / VERSION 0.7</p>
         <div class="live-time" data-live-time>
-          <time id="live-timestamp" datetime="">00.00.00 | 00:00</time>
+          <time id="live-timestamp">…</time>
           <div class="time-meta">
-            <span>TEMPS RÉEL / UTC+4</span>
+            <span>HEURE LOCALE / UTC+4</span>
             <span id="live-seconds">00 SECONDES</span>
           </div>
           <div class="minute-track" aria-hidden="true">
@@ -71,7 +71,7 @@
           </p>
         </div>
 
-        <div class="board" aria-label="Registre Kanban des recherches artistiques">
+        <div class="board" role="region" tabindex="0" aria-label="Registre Kanban des recherches artistiques">
           <section class="column" aria-labelledby="emergentes-title">
             <header class="column-header">
               <h3 id="emergentes-title">Émergentes</h3>
@@ -143,7 +143,7 @@
                 </div>
                 <div>
                   <dt>Dernière clôture</dt>
-                  <dd>04.10.26 | 14:18</dd>
+                  <dd><time datetime="2026-10-04T14:18:00+04:00">2026-10-04 | 14:18 UTC+4</time></dd>
                 </div>
               </dl>
               <details>
@@ -244,7 +244,7 @@
 
     <footer>
       <p>© 2026 Dax Ricaud. Tous droits réservés.</p>
-      <p class="footer-status">SITE 0.6 / REGISTRE PUBLIC</p>
+      <p class="footer-status">SITE 0.7 / REGISTRE PUBLIC</p>
     </footer>
   </body>
 </html>

@@ -10,7 +10,7 @@ const formatter = new Intl.DateTimeFormat(locale, {
   timeZone,
   day: "2-digit",
   month: "2-digit",
-  year: "2-digit",
+  year: "numeric",
   hour: "2-digit",
   minute: "2-digit",
   second: "2-digit",
@@ -29,15 +29,15 @@ function updateTimestamp() {
 
   const now = new Date();
   const parts = getTimeParts(now);
-  const display = `${parts.day}.${parts.month}.${parts.year} | ${parts.hour}:${parts.minute}`;
-  const machineDate = `${Number(`20${parts.year}`)}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}:${parts.second}+04:00`;
+  const display = `${parts.year}-${parts.month}-${parts.day} | ${parts.hour}:${parts.minute}`;
+  const machineDate = `${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}:${parts.second}+04:00`;
   const seconds = Number(parts.second);
 
   timestamp.textContent = display;
   timestamp.dateTime = machineDate;
   timestamp.setAttribute(
     "aria-label",
-    `${parts.day} ${parts.month} ${parts.year}, ${parts.hour}:${parts.minute}, UTC plus 4`,
+    `${parts.year}-${parts.month}-${parts.day}, ${parts.hour}:${parts.minute}, UTC +4`,
   );
   secondsLabel.textContent = `${parts.second} ${secondWord}`;
   minuteProgress.style.setProperty("--minute-progress", `${(seconds / 60) * 100}%`);
