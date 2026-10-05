@@ -16,11 +16,11 @@ Ne jamais lancer cette commande depuis la racine `TheSystemian/`: cela rendrait 
 
 ## Direction
 
-- Palette: papier, blanc, noir, anthracite, graphite, gris ligne
+- Palette : papier, noir doux, gris ligne, zones chaudes et froides à intensité faible
 - Typographies prévues: Poppins et Roboto Mono, avec fallbacks système
 - Forme principale: registre Kanban public
 - Aucune donnée privée, administrative ou client ne doit être publiée
 
 ## État
 
-Version 0.2. Le site comprend les versions française et anglaise, un timestamp vivant en UTC+4 et un portrait de l'artiste. La seule recherche publiée est `Signatures temporelles`. Les autres colonnes restent volontairement vides jusqu'à validation de leur contenu public.
+Version 0.3. Le site comprend les versions française et anglaise, un timestamp vivant en UTC+4, une page `À propos` bilingue et un portrait traité par des températures chromatiques faibles en CSS. L'accueil ne comporte plus de présentation biographique : le Registre, ses recherches et leurs états restent au centre. La seule recherche publiée est `Signatures temporelles`. Les autres colonnes restent volontairement vides jusqu'à validation de leur contenu public.
