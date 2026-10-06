@@ -47,6 +47,12 @@
     --cool-mark: #456574;
     --warm-wash: rgb(168 107 84 / 0.055);
     --cool-wash: rgb(88 120 135 / 0.06);
+    --ecosystem-sand: #e8dcc3;
+    --ecosystem-terracotta: #b5572e;
+    --ecosystem-navy: #132a3e;
+    --ecosystem-navy-2: color-mix(in srgb, var(--ecosystem-navy) 3%, var(--paper));
+    --ecosystem-terracotta-2: color-mix(in srgb, var(--ecosystem-terracotta) 4%, var(--paper));
+    --ecosystem-sand-3: color-mix(in srgb, var(--ecosystem-sand) 46%, var(--paper));
     --font-sans: "Poppins", "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif;
     --font-mono: "Roboto Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
     --page-gutter: clamp(1rem, 4vw, 4rem);
@@ -143,6 +149,7 @@
     gap: 1.5rem;
     padding-block: var(--section-space);
     border-bottom: 1px solid var(--line);
+    background: var(--ecosystem-navy-2);
   }
 
   .live-time {
@@ -267,6 +274,10 @@
     line-height: 1.5;
   }
 
+  .register {
+    background: var(--ecosystem-terracotta-2);
+  }
+
   .contact-copy {
     display: grid;
     gap: 1.25rem;
@@ -274,6 +285,7 @@
 
   .fibonacci {
     grid-template-columns: minmax(0, 1fr) auto;
+    background: var(--ecosystem-sand-3);
   }
 
   .fibonacci-origin,
