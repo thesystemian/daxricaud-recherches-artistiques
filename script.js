@@ -1,10 +1,13 @@
 const timestamp = document.querySelector("#live-timestamp");
 const secondsLabel = document.querySelector("#live-seconds");
 const minuteProgress = document.querySelector("#minute-progress");
+const fibonacciIndex = document.querySelector("[data-fibonacci-index]");
 
 const timeZone = "Indian/Mauritius";
 const locale = document.documentElement.lang === "en" ? "en-GB" : "fr-FR";
 const secondWord = document.documentElement.lang === "en" ? "SECONDS" : "SECONDES";
+const fibonacciOrigin = new Date("2026-10-06T08:32:00+04:00").getTime();
+const integerFormatter = new Intl.NumberFormat(locale);
 
 const formatter = new Intl.DateTimeFormat(locale, {
   timeZone,
@@ -25,9 +28,15 @@ function getTimeParts(date) {
 }
 
 function updateTimestamp() {
-  if (!timestamp || !secondsLabel || !minuteProgress) return;
-
   const now = new Date();
+
+  if (fibonacciIndex) {
+    const elapsedSeconds = Math.floor((now.getTime() - fibonacciOrigin) / 1000);
+    const currentTerm = Math.max(1, elapsedSeconds + 1);
+    fibonacciIndex.textContent = `#${integerFormatter.format(currentTerm)}`;
+  }
+
+  if (!timestamp || !secondsLabel || !minuteProgress) return;
   const parts = getTimeParts(now);
   const display = `${parts.year}-${parts.month}-${parts.day} | ${parts.hour}:${parts.minute}`;
   const machineDate = `${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}:${parts.second}+04:00`;

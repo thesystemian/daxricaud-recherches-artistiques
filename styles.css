@@ -209,13 +209,15 @@
   .register,
   .statement,
   .register-principle,
-  .contact {
+  .contact,
+  .fibonacci {
     padding-block: var(--section-space);
     border-bottom: 1px solid var(--line);
   }
 
   .section-heading,
-  .contact {
+  .contact,
+  .fibonacci {
     display: grid;
     grid-template-columns: minmax(0, 1.3fr) minmax(16rem, 0.7fr);
     gap: clamp(2rem, 6vw, 7rem);
@@ -268,6 +270,37 @@
   .contact-copy {
     display: grid;
     gap: 1.25rem;
+  }
+
+  .fibonacci {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .fibonacci-origin,
+  .fibonacci-current {
+    color: var(--graphite);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+  }
+
+  .fibonacci-origin {
+    margin-top: 0.75rem;
+  }
+
+  .fibonacci-current {
+    display: grid;
+    gap: 0.5rem;
+    text-align: right;
+  }
+
+  .fibonacci-current output {
+    color: var(--ink);
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    line-height: 1;
+    letter-spacing: -0.04em;
+    white-space: nowrap;
   }
 
   .home-about {
@@ -641,6 +674,7 @@
     .home-about-grid,
     .about-biography,
     .contact,
+    .fibonacci,
     .statement-grid {
       grid-template-columns: 1fr;
     }
@@ -651,8 +685,13 @@
     }
 
     .section-heading,
-    .contact {
+    .contact,
+    .fibonacci {
       align-items: start;
+    }
+
+    .fibonacci-current {
+      text-align: left;
     }
 
     .home-about-copy,
