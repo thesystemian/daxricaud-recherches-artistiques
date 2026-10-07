@@ -9,7 +9,7 @@
     />
     <meta name="theme-color" content="#f7f6f2" />
     <title>Dax Ricaud | Artistic Research</title>
-    <link rel="stylesheet" href="../styles.css?v=0.9.0" />
+    <link rel="stylesheet" href="../styles.css?v=1.0.1" />
     <script src="../script.js?v=0.8.0" defer></script>
   </head>
   <body>
@@ -23,6 +23,7 @@
 
       <nav aria-label="Main navigation">
         <a href="#register">Register</a>
+        <a href="./research-index/">Index</a>
         <a href="#method">Method</a>
         <a href="./about/">About</a>
         <a href="#contact">Contact</a>
@@ -36,7 +37,7 @@
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
-        <p class="eyebrow">PUBLIC REGISTER / VERSION 0.9</p>
+        <p class="eyebrow">PUBLIC REGISTER / VERSION 1.0</p>
         <div class="live-time" data-live-time>
           <time id="live-timestamp">…</time>
           <div class="time-meta">
@@ -71,7 +72,7 @@
           </p>
         </div>
 
-        <div class="board" role="region" tabindex="0" aria-label="Kanban register of artistic research">
+        <div class="board" role="region" tabindex="0" aria-label="Board of states of artistic research">
           <section class="column" aria-labelledby="emerging-title">
             <header class="column-header">
               <h3 id="emerging-title">Emerging</h3>
@@ -84,7 +85,7 @@
                 <span>RESEARCH 02</span>
                 <span>VERSION 0.1</span>
               </div>
-              <h4>The Summons of the Milieu</h4>
+              <h4><a class="research-card-title" href="./the-summons-of-the-milieu/">The Summons of the Milieu</a></h4>
               <p>
                 How can a local maritime signal summon an action, then produce
                 a trace and an archive?
@@ -103,15 +104,15 @@
                   <dd>Shore Signals</dd>
                 </div>
               </dl>
-              <details>
-                <summary>Open the research</summary>
+              <div class="card-opening">
                 <p>
-                  Through a local maritime signal, the milieu summons an action. This
-                  response may be completed, delayed, prevented, refused or remain
-                  impossible to verify. The research observes the gap between the
-                  signal, the action and the archive that attempts to retain its trace.
+                  A milieu produces a signal. The signal summons an action.
+                  The response may be completed, delayed, prevented or refused.
+                  The research observes the gap between the signal and that response.
                 </p>
-              </details>
+                <p><span class="evidence-label">HYPOTHESIS</span><br />A protocol to be tested. No constituted occurrence is published.</p>
+                <a href="./the-summons-of-the-milieu/">Open the research →</a>
+              </div>
             </article>
           </section>
 
@@ -125,9 +126,9 @@
             <article class="research-card">
               <div class="card-meta">
                 <span>RESEARCH 01</span>
-                <span>VERSION 0.1</span>
+                <span>VERSION 0.3</span>
               </div>
-              <h4>Temporal Signatures</h4>
+              <h4><a class="research-card-title" href="./temporal-signatures/">Temporal Signatures</a></h4>
               <p>
                 How do a date and time become a form, an identifier and a point
                 of closure?
@@ -146,15 +147,18 @@
                   <dd><time datetime="2026-10-04T14:18:00+04:00">2026-10-04 | 14:18 UTC+4</time></dd>
                 </div>
               </dl>
-              <details>
-                <summary>Open the research</summary>
+              <div class="card-opening">
                 <p>
-                  For several years, Dax Ricaud has inscribed the completion
-                  date and time on his drawings. The notation changes through
-                  bubbles, frames, lines, pipes and handwritten marks. This research
-                  observes the moment when information becomes a visual element.
+                  Seven documents dated from 2012 to 2026 show how timestamping,
+                  its separators and frames become visual forms.
                 </p>
-              </details>
+                <figure class="card-document">
+                  <span class="evidence-label">DOCUMENTED FACT</span>
+                  <img src="../assets/signatures-temporelles/2026-02-13-18h26.jpg" alt="Detail of the inscription dated February 13, 2026 at 18:26, with date and time linked by an underscore" loading="lazy" />
+                  <figcaption>2026-02-13 | 18:26. Partial view of the inscription, one of seven archival documents.</figcaption>
+                </figure>
+                <a href="./temporal-signatures/">Open the research →</a>
+              </div>
             </article>
           </section>
 
@@ -202,15 +206,21 @@
         </div>
       </section>
 
+      <section id="legend" class="critical-legend" aria-labelledby="legend-title">
+        <p class="eyebrow">CRITICAL LEGEND</p>
+        <h2 id="legend-title">Distinguish what is documented from what remains to be tested.</h2>
+        <dl>
+          <div><dt>Documented fact</dt><dd>An element supported by a document or an identified source, within the limits of that evidence.</dd></div>
+          <div><dt>Interpretation</dt><dd>A reading proposed from the documents, distinct from what they directly establish.</dd></div>
+          <div><dt>Hypothesis</dt><dd>A proposition or protocol to be tested.</dd></div>
+          <div><dt>Unverified</dt><dd>Information mentioned whose verification has not been established.</dd></div>
+          <div><dt>Unknown</dt><dd>Missing information or a question unanswered at this stage.</dd></div>
+        </dl>
+      </section>
+
       <section class="home-about" aria-labelledby="home-about-title">
         <div class="home-about-grid">
-          <figure class="portrait portrait-temperature">
-            <img
-              src="../assets/dax-ricaud-portrait.png"
-              alt="Portrait of Dax Ricaud"
-              loading="lazy"
-            />
-          </figure>
+
           <div class="home-about-copy">
             <p class="eyebrow">DAX RICAUD</p>
             <h2 id="home-about-title">Artist.</h2>
@@ -243,11 +253,12 @@
 
       <section class="fibonacci" aria-labelledby="fibonacci-title">
         <div>
-          <p class="eyebrow" id="fibonacci-title">FIBONACCI / SEQUENCE IN PROGRESS</p>
+          <p class="eyebrow" id="fibonacci-title">FIBONACCI / EXPERIMENTAL TIME MEASURE</p>
           <p class="fibonacci-origin">SINCE 2026-10-06 | 08:32 UTC+4</p>
+          <p class="fibonacci-explanation">Each elapsed second advances one position in the sequence. The counter displays that index, not the value of the Fibonacci number. It places the site's continuous time alongside the discontinuous temporalities of research: its relevance remains to be tested through practice, without measuring productivity.</p>
         </div>
         <p class="fibonacci-current">
-          <span>CURRENT TERM</span>
+          <span>TERM INDEX</span>
           <output data-fibonacci-index>1</output>
         </p>
       </section>
@@ -255,7 +266,7 @@
 
     <footer>
       <p>© 2026 Dax Ricaud. All rights reserved.</p>
-      <p class="footer-status">SITE 0.9 / PUBLIC REGISTER</p>
+      <p class="footer-status">SITE 1.0 / PUBLIC REGISTER</p>
     </footer>
   </body>
 </html>

@@ -9,7 +9,7 @@
     />
     <meta name="theme-color" content="#f7f6f2" />
     <title>Dax Ricaud | Recherches artistiques</title>
-    <link rel="stylesheet" href="./styles.css?v=0.9.0" />
+    <link rel="stylesheet" href="./styles.css?v=1.0.1" />
     <script src="./script.js?v=0.8.0" defer></script>
   </head>
   <body>
@@ -23,6 +23,7 @@
 
       <nav aria-label="Navigation principale">
         <a href="#registre">Registre</a>
+        <a href="./index-des-recherches/">Index</a>
         <a href="#methode">Méthode</a>
         <a href="./a-propos/">À propos</a>
         <a href="#contact">Contact</a>
@@ -36,7 +37,7 @@
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
-        <p class="eyebrow">REGISTRE PUBLIC / VERSION 0.9</p>
+        <p class="eyebrow">REGISTRE PUBLIC / VERSION 1.0</p>
         <div class="live-time" data-live-time>
           <time id="live-timestamp">…</time>
           <div class="time-meta">
@@ -62,7 +63,7 @@
       <section id="registre" class="register" aria-labelledby="register-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">TABLEAU D'ÉTATS</p>
+            <p class="eyebrow">TABLEAU DES ÉTATS</p>
             <h2 id="register-title">Recherches publiées</h2>
           </div>
           <p class="section-note">
@@ -71,7 +72,7 @@
           </p>
         </div>
 
-        <div class="board" role="region" tabindex="0" aria-label="Registre Kanban des recherches artistiques">
+        <div class="board" role="region" tabindex="0" aria-label="Tableau des états des recherches artistiques">
           <section class="column" aria-labelledby="emergentes-title">
             <header class="column-header">
               <h3 id="emergentes-title">Émergentes</h3>
@@ -84,7 +85,7 @@
                 <span>RECHERCHE 02</span>
                 <span>VERSION 0.1</span>
               </div>
-              <h4>Les Convocations du milieu</h4>
+              <h4><a class="research-card-title" href="./les-convocations-du-milieu/">Les Convocations du milieu</a></h4>
               <p>
                 Comment un signal maritime local peut-il convoquer une action,
                 puis produire une trace et une archive?
@@ -103,15 +104,15 @@
                   <dd>Signaux de rive</dd>
                 </div>
               </dl>
-              <details>
-                <summary>Ouvrir la recherche</summary>
+              <div class="card-opening">
                 <p>
                   Un milieu produit un signal. Le signal convoque une action.
-                  Cette réponse peut être accomplie, différée, empêchée, refusée
-                  ou demeurer non vérifiable. La recherche observe l'écart entre
-                  le signal, l'action et l'archive qui tente d'en conserver la trace.
+                  La réponse peut être accomplie, différée, empêchée ou refusée.
+                  La recherche observe l'écart entre le signal et cette réponse.
                 </p>
-              </details>
+                <p><span class="evidence-label">HYPOTHÈSE</span><br />Protocole à éprouver. Aucune occurrence constituée n'est publiée.</p>
+                <a href="./les-convocations-du-milieu/">Ouvrir la recherche →</a>
+              </div>
             </article>
           </section>
 
@@ -125,9 +126,9 @@
             <article class="research-card">
               <div class="card-meta">
                 <span>RECHERCHE 01</span>
-                <span>VERSION 0.1</span>
+                <span>VERSION 0.3</span>
               </div>
-              <h4>Signatures temporelles</h4>
+              <h4><a class="research-card-title" href="./signatures-temporelles/">Signatures temporelles</a></h4>
               <p>
                 Comment une date et une heure deviennent-elles une forme, un
                 identifiant et une clôture?
@@ -146,15 +147,18 @@
                   <dd><time datetime="2026-10-04T14:18:00+04:00">2026-10-04 | 14:18 UTC+4</time></dd>
                 </div>
               </dl>
-              <details>
-                <summary>Ouvrir la recherche</summary>
+              <div class="card-opening">
                 <p>
-                  Depuis plusieurs années, Dax Ricaud inscrit la date et l'heure
-                  de fin de ses dessins. La notation varie: bulles, cadres,
-                  traits, pipes et inscriptions manuscrites. La recherche observe
-                  le moment où cette information devient un élément plastique.
+                  Sept documents datés de 2012 à 2026 montrent comment
+                  l'horodatage, ses séparateurs et ses cadres deviennent des formes.
                 </p>
-              </details>
+                <figure class="card-document">
+                  <span class="evidence-label">FAIT DOCUMENTÉ</span>
+                  <img src="./assets/signatures-temporelles/2026-02-13-18h26.jpg" alt="Détail de l'inscription du 13 février 2026 à 18h26, date et heure reliées par un underscore" loading="lazy" />
+                  <figcaption>2026-02-13 | 18:26. Vue partielle de l'inscription, parmi sept documents d'archive.</figcaption>
+                </figure>
+                <a href="./signatures-temporelles/">Ouvrir la recherche →</a>
+              </div>
             </article>
           </section>
 
@@ -202,15 +206,21 @@
         </div>
       </section>
 
+      <section id="legende" class="critical-legend" aria-labelledby="legend-title">
+        <p class="eyebrow">LÉGENDE CRITIQUE</p>
+        <h2 id="legend-title">Distinguer ce qui est attesté de ce qui reste à éprouver.</h2>
+        <dl>
+          <div><dt>Fait documenté</dt><dd>Un élément appuyé par un document ou une source identifiée, dans les limites de cette preuve.</dd></div>
+          <div><dt>Interprétation</dt><dd>Une lecture proposée à partir des documents, distincte de ce qu'ils attestent directement.</dd></div>
+          <div><dt>Hypothèse</dt><dd>Une proposition ou un protocole à mettre à l'épreuve.</dd></div>
+          <div><dt>Non vérifié</dt><dd>Une information mentionnée dont la vérification n'a pas été établie.</dd></div>
+          <div><dt>Inconnu</dt><dd>Une donnée manquante ou une question sans réponse à ce stade.</dd></div>
+        </dl>
+      </section>
+
       <section class="home-about" aria-labelledby="home-about-title">
         <div class="home-about-grid">
-          <figure class="portrait portrait-temperature">
-            <img
-              src="./assets/dax-ricaud-portrait.png"
-              alt="Portrait de Dax Ricaud"
-              loading="lazy"
-            />
-          </figure>
+
           <div class="home-about-copy">
             <p class="eyebrow">DAX RICAUD</p>
             <h2 id="home-about-title">Artiste.</h2>
@@ -243,11 +253,12 @@
 
       <section class="fibonacci" aria-labelledby="fibonacci-title">
         <div>
-          <p class="eyebrow" id="fibonacci-title">FIBONACCI / SUITE EN COURS</p>
+          <p class="eyebrow" id="fibonacci-title">FIBONACCI / MESURE TEMPORELLE EXPÉRIMENTALE</p>
           <p class="fibonacci-origin">DEPUIS LE 2026-10-06 | 08:32 UTC+4</p>
+          <p class="fibonacci-explanation">Une seconde écoulée fait avancer d'un rang dans la suite. Le compteur affiche ce rang, pas la valeur du nombre de Fibonacci. Il met en regard le temps continu du site et les temporalités discontinues des recherches : son intérêt reste à éprouver dans la pratique, sans mesurer une productivité.</p>
         </div>
         <p class="fibonacci-current">
-          <span>TERME ACTUEL</span>
+          <span>RANG DU TERME</span>
           <output data-fibonacci-index>1</output>
         </p>
       </section>
@@ -255,7 +266,7 @@
 
     <footer>
       <p>© 2026 Dax Ricaud. Tous droits réservés.</p>
-      <p class="footer-status">SITE 0.9 / REGISTRE PUBLIC</p>
+      <p class="footer-status">SITE 1.0 / REGISTRE PUBLIC</p>
     </footer>
   </body>
 </html>
