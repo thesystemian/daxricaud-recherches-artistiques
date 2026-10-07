@@ -969,8 +969,8 @@
     list-style: none;
   }
 
-  .process-chain-seven {
-    grid-template-columns: repeat(7, minmax(10rem, 1fr));
+  .process-chain-eight {
+    grid-template-columns: repeat(8, minmax(10rem, 1fr));
   }
 
   .process-chain li {
