@@ -23,7 +23,7 @@ Ne jamais lancer cette commande depuis la racine `TheSystemian/`: cela rendrait 
 
 ## État
 
-Version 1.2 préparée le 10/10/2026. Elle ramène le protocole public d’`Études de l’ordinaire` de huit à cinq étapes : `Performance → Captation → Questionnement → Poème de l’après-coup → Composition HTML`. Le dialogue est inclus dans le questionnement, le manuscrit et la transcription servent le même poème, et l’archivage reste essentiel sans devenir une sixième étape créative. La version 1.1 publiée est préservée dans `../Documentation/Versions/SourcesVersion1.1Publiee/`.
+Version 1.2 publiée le 10/10/2026 au commit `a0b436f`. Elle ramène le protocole public d’`Études de l’ordinaire` de huit à cinq étapes : `Performance → Captation → Questionnement → Poème de l’après-coup → Composition HTML`. Le dialogue est inclus dans le questionnement, le manuscrit et la transcription servent le même poème, et l’archivage reste essentiel sans devenir une sixième étape créative. La version 1.1 publiée est préservée dans `../Documentation/Versions/SourcesVersion1.1Publiee/`.
 
 Version 1.1 publiée le 10/10/2026. Elle ajoute `Études de l’ordinaire` comme `RECHERCHE 03 / ÉMERGENTE` au Registre et à l’Index bilingues, avec une introduction française et anglaise. La page nomme `Balayer`, `Devant le ventilateur` et `Debout face à la caméra avec les mains sur les hanches` comme trois études documentées dans l’archive privée, sans publier leurs captations, Poèmes de l’après-coup, conversations ni fichiers HTML. La version 1.0 complète est préservée dans `../Documentation/Versions/SourcesVersion1.0/`. La sélection publique a été copiée dans `Deploiement/`, contrôlée localement puis publiée sur GitHub Pages.
 
