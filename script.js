@@ -2,6 +2,7 @@ const timestamp = document.querySelector("#live-timestamp");
 const secondsLabel = document.querySelector("#live-seconds");
 const minuteProgress = document.querySelector("#minute-progress");
 const fibonacciIndex = document.querySelector("[data-fibonacci-index]");
+const themeColor = document.querySelector('meta[name="theme-color"]');
 
 const timeZone = "Indian/Mauritius";
 const locale = document.documentElement.lang === "en" ? "en-GB" : "fr-FR";
@@ -27,8 +28,19 @@ function getTimeParts(date) {
   }, {});
 }
 
+function updateTheme(date) {
+  const parts = getTimeParts(date);
+  const minuteOfDay = Number(parts.hour) * 60 + Number(parts.minute);
+  const isDark = minuteOfDay >= 18 * 60 + 30 || minuteOfDay < 6 * 60;
+  const theme = isDark ? "dark" : "light";
+
+  document.documentElement.dataset.theme = theme;
+  if (themeColor) themeColor.content = isDark ? "#111312" : "#f7f6f2";
+}
+
 function updateTimestamp() {
   const now = new Date();
+  updateTheme(now);
 
   if (fibonacciIndex) {
     const elapsedSeconds = Math.floor((now.getTime() - fibonacciOrigin) / 1000);

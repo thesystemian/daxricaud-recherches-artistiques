@@ -34,6 +34,7 @@
 
 @layer tokens {
   :root {
+    color-scheme: light;
     --paper: #f7f6f2;
     --paper-warm: #f3f1ed;
     --paper-cool: #f0f2f3;
@@ -50,6 +51,21 @@
     --page-gutter: clamp(1rem, 4vw, 4rem);
     --section-space: clamp(4rem, 10vw, 9rem);
     --radius: 0.25rem;
+  }
+
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #111312;
+    --paper-warm: #171917;
+    --paper-cool: #1c2020;
+    --white: #222625;
+    --ink: #f2f1eb;
+    --anthracite: #d6d7d2;
+    --graphite: #b5b7b1;
+    --line: #353936;
+    --line-strong: #656a65;
+    --warm-mark: #bbb2a8;
+    --cool-mark: #aab6bd;
   }
 }
 
