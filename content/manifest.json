@@ -1,0 +1,20 @@
+{
+  "siteVersion": "1.5",
+  "referenceVersion": "1.4",
+  "languages": ["fr", "en"],
+  "pages": [
+    {"language": "fr", "file": "fr/registre.json", "source": "fr/index.html", "route": "/fr/"},
+    {"language": "en", "file": "en/registre.json", "source": "index.html", "route": "/"},
+    {"language": "fr", "file": "fr/a-propos.json", "source": "a-propos/index.html", "route": "/a-propos/"},
+    {"language": "en", "file": "en/about.json", "source": "en/about/index.html", "route": "/en/about/"},
+    {"language": "fr", "file": "fr/index-des-recherches.json", "source": "index-des-recherches/index.html", "route": "/index-des-recherches/"},
+    {"language": "en", "file": "en/research-index.json", "source": "en/research-index/index.html", "route": "/en/research-index/"},
+    {"language": "fr", "file": "fr/les-convocations-du-milieu.json", "source": "les-convocations-du-milieu/index.html", "route": "/les-convocations-du-milieu/"},
+    {"language": "en", "file": "en/the-summons-of-the-milieu.json", "source": "en/the-summons-of-the-milieu/index.html", "route": "/en/the-summons-of-the-milieu/"},
+    {"language": "fr", "file": "fr/signatures-temporelles.json", "source": "signatures-temporelles/index.html", "route": "/signatures-temporelles/"},
+    {"language": "en", "file": "en/temporal-signatures.json", "source": "en/temporal-signatures/index.html", "route": "/en/temporal-signatures/"},
+    {"language": "fr", "file": "fr/etudes-de-lordinaire.json", "source": "etudes-de-lordinaire/index.html", "route": "/etudes-de-lordinaire/"},
+    {"language": "en", "file": "en/studies-of-the-ordinary.json", "source": "en/studies-of-the-ordinary/index.html", "route": "/en/studies-of-the-ordinary/"},
+    {"language": "en", "file": "en/accueil-alternatif.json", "source": "en/index.html", "route": "/en/"}
+  ]
+}

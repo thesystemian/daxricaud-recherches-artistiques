@@ -1,0 +1,35 @@
+{
+  "language": "fr",
+  "slug": "a-propos",
+  "title": "Artiste.",
+  "location": "Basé à Maurice",
+  "eyebrow": "DAX RICAUD",
+  "lead": "Dax Ricaud développe une pratique conceptuelle qui se construit à partir de recherches, de gestes, de protocoles et de situations.",
+  "paragraphs": [
+    "Selon les nécessités de chaque œuvre, elle peut mobiliser le dessin, la peinture, la photographie, la vidéo ou des formes d'archive. Les médiums ne constituent pas des catégories fixes : ils deviennent des outils lorsque la recherche les rend nécessaires.",
+    "Formé à la prise de vue et au montage auprès d'un réalisateur institutionnel, il réactive l'image fixe ou en mouvement lorsque celle-ci peut attester une action, un temps, une absence ou une transformation."
+  ],
+  "portrait": {
+    "alt": "Portrait de Dax Ricaud au foulard rouge",
+    "caption": "PORTRAIT, ÉTAT CHROMATIQUE 01."
+  },
+  "registerPrinciple": {
+    "eyebrow": "LE REGISTRE",
+    "title": "Donner un état aux formes qui ne suivent pas une ligne droite.",
+    "paragraphs": [
+      "Le Registre des recherches ne suit pas un parcours d'idées devenues œuvres. Il accueille aussi les formes en cours, reprises, interrompues ou transformées.",
+      "Un état ne juge pas le travail. Il rend visible une manière d'exister, sans forcer une recherche à se terminer pour être reconnue."
+    ]
+  },
+  "contact": {
+    "eyebrow": "CONTACT ET PRÉSENCES",
+    "title": "Échanger autour d'une recherche.",
+    "text": "Pour une exposition, une activation, une collaboration ou une conversation autour du travail.",
+    "email": "dax@daxricaud.com",
+    "links": [
+      {"label": "Instagram, fragments visuels ↗", "url": "https://www.instagram.com/daxricaud/"},
+      {"label": "LinkedIn, activité professionnelle ↗", "url": "https://www.linkedin.com/in/daxricaud/"}
+    ]
+  },
+  "footer": "SITE 1.4 / À PROPOS"
+}

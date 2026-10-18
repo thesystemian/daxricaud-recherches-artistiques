@@ -1,0 +1,62 @@
+{
+  "language": "fr",
+  "slug": "etudes-de-lordinaire",
+  "researchNumber": "03",
+  "title": "Études de l’ordinaire",
+  "state": "Émergente",
+  "version": "0.2",
+  "question": "Comment une action ordinaire réellement accomplie peut-elle produire une forme sans être embellie, dramatisée ou expliquée à l’avance ?",
+  "metadata": [
+    {"label": "État", "value": "Émergente"},
+    {"label": "Situation initiale", "value": "Habitation de l’artiste, Maurice"},
+    {"label": "Premières études", "value": "3 documentées"},
+    {"label": "Études publiées", "value": "Aucune"}
+  ],
+  "intro": {
+    "eyebrow": "INTRODUCTION",
+    "title": "Le corps agit. La caméra observe. La pensée intervient après.",
+    "evidenceLabel": "Recherche performative, vidéographique, poétique et numérique",
+    "paragraphs": [
+      "Études de l’ordinaire est une pratique artistique quotidienne, sans obligation de fréquence ni de résultat, dans laquelle des actions vécues deviennent des performances filmées, puis donnent naissance à des poèmes après coup. Chaque ensemble est composé et présenté en HTML. La recherche se développe au rythme de la vie de l’artiste.",
+      "Après l’action, l’artiste revient sur l’expérience vécue, seul, dans un carnet ou dans le dialogue, afin de faire émerger une question. Il y répond par un Poème de l’après-coup, personnel et libre dans sa forme.",
+      "La captation, la question et le poème peuvent ensuite être organisés dans une forme HTML. Chaque étude reste autonome tout en rejoignant une archive versionnée qui pourra rendre visibles des transformations sur plusieurs années."
+    ]
+  },
+  "process": {
+    "eyebrow": "CHAÎNE DE L’ÉTUDE",
+    "title": "Agir, enregistrer, interroger, écrire, composer.",
+    "note": "Ce protocole de recherche soutient le travail sans imposer une fréquence, un résultat ni une discipline artificielle.",
+    "steps": [
+      {"number": "01", "title": "Performance", "text": "Accomplir une action ordinaire, sans chercher à provoquer un événement particulier."},
+      {"number": "02", "title": "Captation", "text": "Enregistrer l’action dans sa durée, à travers un cadre fixe, principalement vertical."},
+      {"number": "03", "title": "Questionnement", "text": "Revenir sur l’expérience vécue. Seul ou dans le dialogue, faire émerger une question."},
+      {"number": "04", "title": "Poème de l’après-coup", "text": "Écrire librement à partir de cette question, sans nécessairement chercher à expliquer la performance."},
+      {"number": "05", "title": "Composition HTML", "text": "Réunir la captation, la question et le poème dans un espace numérique qui constitue l’œuvre."}
+    ]
+  },
+  "studies": {
+    "index": "03.01",
+    "eyebrow": "PREMIERS CAS",
+    "title": "Trois études documentées dans l’archive privée.",
+    "evidenceLabel": "Fait documenté",
+    "evidenceNote": "Les trois actions, leurs captations et leurs Poèmes de l’après-coup existent. Les captations, poèmes et conversations restent privés. Les formes HTML ne sont pas publiées et certaines restent à construire.",
+    "elements": [
+      {"title": "Balayer", "text": "Une action ménagère réelle devient le point de départ d’une captation, d’une question et d’un poème."},
+      {"title": "Devant le ventilateur", "text": "Le corps se place dans la chaleur domestique et dans le flux produit par une machine ordinaire."},
+      {"title": "Debout face à la caméra avec les mains sur les hanches", "text": "Une posture tenue devant l’appareil ouvre une autre relation entre observation, durée et retour d’expérience."},
+      {"title": "Territoire évolutif", "text": "La recherche commence dans l’habitation et peut se déplacer dehors vers marcher, attendre, transporter ou ramasser."}
+    ]
+  },
+  "archive": {
+    "eyebrow": "ARCHIVE ET VERSIONS",
+    "title": "Les esquisses conversationnelles restent privées.",
+    "count": "03",
+    "text": "Les conversations préparatoires et post-performance font partie de chaque étude comme des esquisses d’atelier. L’archivage accompagne et conserve le travail sans devenir une sixième étape du protocole créatif. Les originaux et leurs versions successives sont préservés sans être automatiquement publiés."
+  },
+  "openState": {
+    "eyebrow": "ÉTAT OUVERT",
+    "title": "Une étude peut être une œuvre sans cesser d’être une recherche.",
+    "text": "Le mot « étude » n’indique pas ici un brouillon inférieur. Il maintient la possibilité d’essayer, de comparer et de transformer. Le statut artistique de chaque réalisation reste cependant à éprouver par sa forme, sa nécessité et sa présentation."
+  },
+  "footerStatus": "RECHERCHE 03 / VERSION 0.2"
+}

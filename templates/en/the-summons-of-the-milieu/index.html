@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="{{title}}, Dax Ricaud's research into situated signals, action, inscription and archive."
+    />
+    <meta name="theme-color" content="#f7f6f2" />
+    <title>The Summons of the Milieu | Dax Ricaud</title>
+    <link rel="stylesheet" href="../../styles.css?v=1.4.0&amp;revision=archive" />
+    <script src="../../script.js?v=0.9.0" defer></script>
+  </head>
+  <body class="research-page research-page-warm">
+    <a class="skip-link" href="#research">Skip to the research</a>
+
+    <header class="site-header">
+      <a class="identity" href="../../" aria-label="Dax Ricaud, home">
+        <span>Dax Ricaud</span>
+        <small>Artistic Research</small>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="../../#register">{{process.steps.7.title}}</a>
+        <a href="../research-index/">Index</a>
+        <a href="../../#method">Method</a>
+        <a href="../about/">About</a>
+        <a href="../../#contact">Contact</a>
+        <span class="language-switch" aria-label="Choose language">
+          <span aria-current="page">EN</span>
+          <span aria-hidden="true">|</span>
+          <a href="../../les-convocations-du-milieu/" lang="fr" hreflang="fr">FR</a>
+        </span>
+      </nav>
+    </header>
+
+    <main id="research">
+      <section class="research-hero" aria-labelledby="research-title">
+        <div class="research-kicker">
+          <p class="eyebrow">RESEARCH {{researchNumber}} / {{state}}</p>
+          <p class="research-version">VERSION {{version}}</p>
+        </div>
+        <h1 id="research-title">{{title}}</h1>
+        <p class="research-question">
+          {{question}}
+        </p>
+        <dl class="research-meta">
+          <div><dt>{{metadata.0.label}}</dt><dd>{{state}}</dd></div>
+          <div><dt>{{metadata.1.label}}</dt><dd>{{metadata.1.value}}</dd></div>
+          <div><dt>{{metadata.2.label}}</dt><dd>{{metadata.2.value}}</dd></div>
+          <div><dt>{{metadata.3.label}}</dt><dd>{{metadata.3.value}}</dd></div>
+        </dl>
+      </section>
+
+      <section class="research-intro" aria-labelledby="definition-title">
+        <p class="eyebrow">{{intro.eyebrow}}</p>
+        <div class="research-intro-grid">
+          <h2 id="definition-title">{{intro.title}}</h2>
+          <div class="research-prose">
+            <p class="evidence-label">{{intro.evidenceLabel}}</p>
+            <p class="evidence-note">{{intro.evidenceNote}}</p>
+            <p class="lead">
+              {{intro.paragraphs.0}}
+            </p>
+            <p>
+              {{intro.paragraphs.1}}
+            </p>
+            <p>
+              {{intro.paragraphs.2}}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="research-process" aria-labelledby="process-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">{{process.eyebrow}}</p>
+            <h2 id="process-title">{{process.title}}</h2>
+          </div>
+          <p class="section-note">
+            {{process.note}}
+          </p>
+        </div>
+        <ol class="process-chain process-chain-eight" tabindex="0" aria-label="The eight stages of the indexical chain">
+          <li><span>{{process.steps.0.number}}</span><strong>{{process.steps.0.title}}</strong><p>{{process.steps.0.text}}</p></li>
+          <li><span>{{researchNumber}}</span><strong>{{process.steps.1.title}}</strong><p>{{process.steps.1.text}}</p></li>
+          <li><span>{{process.steps.2.number}}</span><strong>{{process.steps.2.title}}</strong><p>{{process.steps.2.text}}</p></li>
+          <li><span>{{process.steps.3.number}}</span><strong>{{process.steps.3.title}}</strong><p>{{process.steps.3.text}}</p></li>
+          <li><span>{{process.steps.4.number}}</span><strong>{{process.steps.4.title}}</strong><p>{{process.steps.4.text}}</p></li>
+          <li><span>{{process.steps.5.number}}</span><strong>{{process.steps.5.title}}</strong><p>{{process.steps.5.text}}</p></li>
+          <li><span>{{process.steps.6.number}}</span><strong>{{process.steps.6.title}}</strong><p>{{process.steps.6.text}}</p></li>
+          <li><span>{{process.steps.7.number}}</span><strong>{{process.steps.7.title}}</strong><p>{{process.steps.7.text}}</p></li>
+        </ol>
+      </section>
+
+      <section class="direction-section" aria-labelledby="direction-title">
+        <div class="direction-index">{{direction.index}}</div>
+        <div class="direction-content">
+          <p class="eyebrow">{{direction.eyebrow}}</p>
+          <h2 id="direction-title">{{metadata.2.value}}</h2>
+          <p class="evidence-label">{{direction.evidenceLabel}}</p>
+          <p class="evidence-note">{{direction.evidenceNote}}</p>
+          <p class="direction-lead">
+            {{direction.lead}}
+          </p>
+          <div class="direction-grid">
+            <div><h3>{{process.steps.2.title}}</h3><p>{{direction.elements.0.text}}</p></div>
+            <div><h3>{{direction.elements.1.title}}</h3><p>{{direction.elements.1.text}}</p></div>
+            <div><h3>{{process.steps.5.title}}</h3><p>{{direction.elements.2.text}}</p></div>
+            <div><h3>{{process.steps.6.title}}</h3><p>{{direction.elements.3.text}}</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="occurrence-section" aria-labelledby="occurrence-title">
+        <div>
+          <p class="eyebrow">{{occurrences.eyebrow}}</p>
+          <h2 id="occurrence-title">{{occurrences.title}}</h2>
+        </div>
+        <div class="empty-occurrence">
+          <span>{{occurrences.count}}</span>
+          <p>
+            {{occurrences.text}}
+          </p>
+        </div>
+      </section>
+
+      <section class="research-next" aria-labelledby="next-title">
+        <p class="eyebrow">{{openState.eyebrow}}</p>
+        <h2 id="next-title">{{openState.title}}</h2>
+        <p>
+          {{openState.text}}
+        </p>
+        <a class="text-link" href="../research-index/">Back to the Index →</a>
+        <a class="text-link" href="../../#legend">Read the full critical legend →</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Dax Ricaud. All rights reserved.</p>
+      <p class="footer-status">{{footerStatus}}</p>
+    </footer>
+  </body>
+</html>

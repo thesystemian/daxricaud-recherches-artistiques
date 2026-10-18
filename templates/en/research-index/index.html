@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Index of Dax Ricaud's artistic research, including states, versions, archives and occurrences."
+    />
+    <meta name="theme-color" content="#f7f6f2" />
+    <title>{{title}} | Dax Ricaud</title>
+    <link rel="stylesheet" href="../../styles.css?v=1.4.0" />
+    <script src="../../script.js?v=0.9.0" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#index">Skip to the index</a>
+
+    <header class="site-header">
+      <a class="identity" href="../../" aria-label="Dax Ricaud, home">
+        <span>Dax Ricaud</span>
+        <small>Artistic Research</small>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="../../#register">Register</a>
+        <span aria-current="page">Index</span>
+        <a href="../../#method">Method</a>
+        <a href="../about/">About</a>
+        <a href="../../#contact">Contact</a>
+        <span class="language-switch" aria-label="Choose language">
+          <span aria-current="page">EN</span>
+          <span aria-hidden="true">|</span>
+          <a href="../../index-des-recherches/" lang="fr" hreflang="fr">FR</a>
+        </span>
+      </nav>
+    </header>
+
+    <main id="index">
+      <section class="index-hero" aria-labelledby="index-title">
+        <div>
+          <p class="eyebrow">{{eyebrow}}</p>
+          <h1 id="index-title">{{title}}</h1>
+        </div>
+        <p class="index-introduction">
+          {{introduction}}
+        </p>
+      </section>
+
+      <section class="index-list" aria-label="Published research">
+        <article class="index-entry index-entry-cool">
+          <div class="index-number">{{entries.0.number}}</div>
+          <div class="index-entry-main">
+            <div class="card-meta">
+              <span>{{entries.0.state}}</span>
+              <span>VERSION {{entries.0.version}}</span>
+            </div>
+            <h2><a href="../{{entries.0.slug}}/">{{entries.0.title}}</a></h2>
+            <p>
+              {{entries.0.summary}}
+            </p>
+            <p class="evidence-label">{{entries.0.evidence.0.label}}</p>
+            <p class="evidence-note">{{entries.0.evidence.0.text}}</p>
+            <p class="evidence-label">{{entries.0.evidence.1.label}}</p>
+            <p class="evidence-note">{{entries.0.evidence.1.text}}</p>
+          </div>
+          <dl class="index-data">
+            <div><dt>{{entries.0.data.0.label}}</dt><dd>{{entries.0.data.0.value}}</dd></div>
+            <div><dt>{{entries.0.data.1.label}}</dt><dd>{{entries.0.data.1.value}}</dd></div>
+            <div><dt>{{entries.0.data.2.label}}</dt><dd>{{entries.0.data.2.value}}</dd></div>
+          </dl>
+          <a class="index-open" href="../temporal-signatures/">{{entries.0.openLabel}}</a>
+        </article>
+
+        <article class="index-entry index-entry-warm">
+          <div class="index-number">{{entries.1.number}}</div>
+          <div class="index-entry-main">
+            <div class="card-meta">
+              <span>{{entries.1.state}}</span>
+              <span>VERSION {{entries.1.version}}</span>
+            </div>
+            <h2><a href="../{{entries.1.slug}}/">{{entries.1.title}}</a></h2>
+            <p>
+              {{entries.1.summary}}
+            </p>
+            <p class="evidence-label">{{entries.1.evidence.0.label}}</p>
+            <p class="evidence-note">{{entries.1.evidence.0.text}}</p>
+            <p class="evidence-label">{{entries.1.evidence.1.label}}</p>
+            <p class="evidence-note">{{entries.1.evidence.1.text}}</p>
+          </div>
+          <dl class="index-data">
+            <div><dt>{{entries.1.data.0.label}}</dt><dd>{{entries.1.data.0.value}}</dd></div>
+            <div><dt>{{entries.1.data.1.label}}</dt><dd>{{entries.1.data.1.value}}</dd></div>
+            <div><dt>{{entries.1.data.2.label}}</dt><dd>{{entries.1.data.2.value}}</dd></div>
+          </dl>
+          <a class="index-open" href="../the-summons-of-the-milieu/">{{entries.1.openLabel}}</a>
+        </article>
+
+        <article class="index-entry index-entry-warm">
+          <div class="index-number">{{entries.2.number}}</div>
+          <div class="index-entry-main">
+            <div class="card-meta">
+              <span>{{entries.1.state}}</span>
+              <span>VERSION {{entries.2.version}}</span>
+            </div>
+            <h2><a href="../{{entries.2.slug}}/">{{entries.2.title}}</a></h2>
+            <p>
+              {{entries.2.summary}}
+            </p>
+            <p class="evidence-label">{{entries.0.evidence.0.label}}</p>
+            <p class="evidence-note">{{entries.2.evidence.0.text}}</p>
+            <p class="evidence-label">{{entries.2.evidence.1.label}}</p>
+            <p class="evidence-note">{{entries.2.evidence.1.text}}</p>
+          </div>
+          <dl class="index-data">
+            <div><dt>{{entries.2.data.0.label}}</dt><dd>{{entries.2.data.0.value}}</dd></div>
+            <div><dt>{{entries.2.data.1.label}}</dt><dd>{{entries.2.data.1.value}}</dd></div>
+            <div><dt>{{entries.2.data.2.label}}</dt><dd>{{entries.1.data.2.value}}</dd></div>
+          </dl>
+          <a class="index-open" href="../studies-of-the-ordinary/">{{entries.2.openLabel}}</a>
+        </article>
+      </section>
+
+      <section class="index-note" aria-labelledby="index-note-title">
+        <p class="eyebrow">{{principle.eyebrow}}</p>
+        <h2 id="index-note-title">{{principle.title}}</h2>
+        <p>
+          {{principle.text}}
+        </p>
+        <a class="text-link" href="../../#legend">{{legendLinkLabel}}</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Dax Ricaud. All rights reserved.</p>
+      <p class="footer-status">{{footer}}</p>
+    </footer>
+  </body>
+</html>

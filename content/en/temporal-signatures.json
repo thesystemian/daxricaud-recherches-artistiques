@@ -1,0 +1,69 @@
+{
+  "language": "en",
+  "slug": "temporal-signatures",
+  "researchNumber": "01",
+  "title": "Temporal Signatures",
+  "state": "Active",
+  "version": "0.3",
+  "question": "How do a date and time become a form, an identifier and a point of closure?",
+  "metadata": {
+    "stateLabel": "State",
+    "stateValue": "Active",
+    "mediaLabel": "Media",
+    "mediaValue": "Drawing, painting, notation, archive",
+    "archiveLabel": "Published archive",
+    "archiveValue": "7 documents, 2012-2026",
+    "corpusLabel": "Corpus state",
+    "corpusValue": "Open archive"
+  },
+  "definition": {
+    "eyebrow": "WORKING DEFINITION",
+    "title": "Inscribing the moment when making becomes having made.",
+    "evidenceLabel": "Interpretation",
+    "evidenceNote": "The definition and research chain propose a current conceptual reading of the inscriptions, not proof of a concept already constituted at their dates.",
+    "paragraphs": [
+      "A temporal signature is the material inscription of a date and time when a work is considered closed.",
+      "It is not merely metadata added afterwards. Through its form, position and handwriting, it enters the work. It identifies an occurrence, attests to a decision and makes a temporal threshold visible.",
+      "The research examines this passage between information and visual form, between closure and possible resumption, between a singular gesture and the gradual constitution of a register. In 2026, the underscore, vertical bar, frame and circle show that the separator itself becomes a visual operator."
+    ]
+  },
+  "process": {
+    "eyebrow": "RESEARCH CHAIN",
+    "title": "From decision to archive.",
+    "note": "Each passage may vary with the work. The chain describes a relationship, not a fixed graphic recipe.",
+    "steps": [
+      {"number": "01", "title": "Make", "text": "The work takes shape through its medium."},
+      {"number": "02", "title": "Close", "text": "A decision provisionally brings the making to a halt."},
+      {"number": "03", "title": "Inscribe", "text": "The date and time take material form."},
+      {"number": "04", "title": "Document", "text": "An image retains the inscription and its support."},
+      {"number": "05", "title": "Connect", "text": "The document joins a register open to further occurrences."}
+    ]
+  },
+  "archive": {
+    "eyebrow": "PROVISIONAL ARCHIVE / 2012-2026",
+    "title": "Seven inscriptions, several systems of connection.",
+    "evidenceLabel": "Documented fact",
+    "evidenceNote": "The seven photographs document existing inscriptions. On their own, they do not establish the exact conditions of the works’ closure. Readings of a threshold or visual operator in the descriptions belong to the current interpretation.",
+        "documentLabel": "Archive document, partial view of the work.",
+    "paragraphs": [
+      "These documents attest that the gesture of timestamping existed before the current formulation of the research.",
+      "They do not prove that the concept was already constituted at those dates. The views are partial and will be supplemented when the complete works can be documented.",
+      "The three 2026 entries now connect the antecedents to the active research. They reveal variations in the signs that separate and assemble the date, time, name and, at times, an indication specific to the work."
+    ],
+    "entries": [
+      {"number": "01", "entryClass": "archive-entry", "imageClass": "archive-image", "image": "assets/signatures-temporelles/2012-09-20-11h22.jpeg", "alt": "Handwritten inscription on the back of Coupe 2 Fruits, dated 20 September 2012 at 11:22", "date": "20.09.2012 | 11:22", "textBefore": "Reverse of ", "citeTitle": "Coupe 2 Fruits", "textAfter": ". Title, dimensions, weight and materials accompany the timestamp.", "text": ""},
+      {"number": "02", "citeTitle": "", "entryClass": "archive-entry archive-entry-reverse", "imageClass": "archive-image", "image": "assets/signatures-temporelles/2013-01-14h28.jpeg", "alt": "Handwritten inscription on a wicker work, January 2013 at 14:28", "date": "01.2013 | 14:28", "text": "Inscription on a wicker work. The exact day does not appear in the document and remains unrecorded."},
+      {"number": "03", "citeTitle": "", "entryClass": "archive-entry", "imageClass": "archive-image", "image": "assets/signatures-temporelles/2013-01-06-16h01.jpeg", "alt": "Detail of a drawing bearing a signature, the date 6 January 2013 and the time 16:01", "date": "06.01.2013 | 16:01", "text": "Detail of a drawing. Signature, date and time are circled and connected to the composition through the same graphic continuity."},
+      {"number": "04", "citeTitle": "", "entryClass": "archive-entry archive-entry-reverse", "imageClass": "archive-image", "image": "assets/signatures-temporelles/2025-11-15-10h30.jpeg", "alt": "Dax Ricaud inscription on the edge or reverse of a canvas, dated 15 November 2025 at 10:30", "date": "15.11.2025 | 10:30", "text": "Inscription on the edge or reverse of a canvas. The time of closure materially accompanies the support."},
+      {"number": "05", "citeTitle": "", "entryClass": "archive-entry", "imageClass": "archive-image archive-image-wide", "image": "assets/signatures-temporelles/2026-01-22-18h53.jpg", "alt": "Date 22 January 2026 framed, time 18:53 circled and the words Masse plus Rapport", "date": "22.01.2026 | 18:53", "text": "The date is framed, the time circled and the words “MASSE + RAPPORT” extended within a single linear device. The notation visually organises several levels of information."},
+      {"number": "06", "citeTitle": "", "entryClass": "archive-entry archive-entry-reverse", "imageClass": "archive-image archive-image-wide", "image": "assets/signatures-temporelles/2026-02-13-18h26.jpg", "alt": "Temporal signature dated 13 February 2026 at 18:26, connected by an underscore and accompanied by the circled name Dax", "date": "13.02.2026_18:26", "text": "The underscore connects the date to the time while the circled name below the line introduces a second level of signature. The separator becomes a visible form."},
+      {"number": "07", "citeTitle": "", "entryClass": "archive-entry", "imageClass": "archive-image archive-image-wide", "image": "assets/signatures-temporelles/2026-09-05-12h47.jpg", "alt": "Temporal signature dated 5 September 2026 at 12:47, with date and time separated by a vertical bar", "date": "05.09.2026 | 12:47", "text": "The vertical bar clearly separates date and time. Positioned at the boundary between paint and paper, the inscription also acts as a threshold within the surface."}
+    ]
+  },
+  "openState": {
+    "eyebrow": "OPEN STATE",
+    "title": "The register is now connected to the present of the research.",
+    "text": "The three 2026 inscriptions establish this continuity. Future entries may combine the timestamped detail with an overall view of the work and the conditions of its closure, strengthening the documentary chain."
+  },
+  "footerStatus": "RESEARCH 01 / VERSION 0.3"
+}

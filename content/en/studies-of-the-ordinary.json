@@ -1,0 +1,62 @@
+{
+  "language": "en",
+  "slug": "studies-of-the-ordinary",
+  "researchNumber": "03",
+  "title": "Studies of the Ordinary",
+  "state": "Emerging",
+  "version": "0.2",
+  "question": "How can an ordinary action, actually carried out, produce a form without being embellished, dramatised or explained in advance?",
+  "metadata": [
+    {"label": "State", "value": "Emerging"},
+    {"label": "Initial setting", "value": "The artist’s home, Mauritius"},
+    {"label": "First studies", "value": "3 documented"},
+    {"label": "Published studies", "value": "None"}
+  ],
+  "intro": {
+    "eyebrow": "INTRODUCTION",
+    "title": "The body acts. The camera observes. Thought intervenes afterwards.",
+    "evidenceLabel": "Performative, video-based, poetic and digital research",
+    "paragraphs": [
+      "Studies of the Ordinary is a daily artistic practice, with no required frequency or outcome, in which lived actions become filmed performances and subsequently give rise to poems. Each ensemble is composed and presented in HTML. The research develops at the pace of the artist’s life.",
+      "After the action, the artist returns to the lived experience, alone, in a notebook or through dialogue, allowing a question to emerge. He responds through a personal Poème de l’après-coup, or after-the-event poem, whose form remains free.",
+      "The recording, question and poem may then be organised within an HTML form. Each study remains autonomous while joining a versioned archive that may reveal transformations over several years."
+    ]
+  },
+  "process": {
+    "eyebrow": "CHAIN OF THE STUDY",
+    "title": "Act, record, question, write, compose.",
+    "note": "This research protocol supports the work without imposing a frequency, an outcome or an artificial discipline.",
+    "steps": [
+      {"number": "01", "title": "Performance", "text": "Carry out an ordinary action without seeking to provoke a particular event."},
+      {"number": "02", "title": "Recording", "text": "Record the action in its duration through a fixed, mainly vertical frame."},
+      {"number": "03", "title": "Questioning", "text": "Return to the lived experience. Alone or through dialogue, allow a question to emerge."},
+      {"number": "04", "title": "Poème de l’après-coup", "text": "Write freely from that question without necessarily seeking to explain the performance."},
+      {"number": "05", "title": "HTML composition", "text": "Bring the recording, question and poem together in a digital space that constitutes the work."}
+    ]
+  },
+  "studies": {
+    "index": "03.01",
+    "eyebrow": "FIRST CASES",
+    "title": "Three studies documented in the private archive.",
+    "evidenceLabel": "Documented fact",
+    "evidenceNote": "The three actions, their recordings and their Poèmes de l’après-coup exist. The recordings, poems and conversations remain private. The HTML forms are not published, and some have yet to be built.",
+    "elements": [
+      {"title": "Sweeping", "text": "A real household task becomes the starting point for a recording, a question and a poem."},
+      {"title": "In Front of the Fan", "text": "The body enters domestic heat and the airflow produced by an ordinary machine."},
+      {"title": "Standing Facing the Camera with Hands on Hips", "text": "A posture held before the device opens another relationship between observation, duration and reflection on experience."},
+      {"title": "Evolving territory", "text": "The research begins at home and may move outdoors towards walking, waiting, carrying or picking things up."}
+    ]
+  },
+  "archive": {
+    "eyebrow": "ARCHIVE AND VERSIONS",
+    "title": "The conversational sketches remain private.",
+    "count": "03",
+    "text": "Conversations before and after the performance belong to each study as studio sketches. Archiving accompanies and preserves the work without becoming a sixth stage of the creative protocol. Originals and successive versions are preserved without being automatically published."
+  },
+  "openState": {
+    "eyebrow": "OPEN STATE",
+    "title": "A study can be a work without ceasing to be research.",
+    "text": "Here, the word “study” does not indicate an inferior draft. It preserves the possibility of testing, comparing and transforming. The artistic status of each realisation must nevertheless be tested through its form, necessity and presentation."
+  },
+  "footerStatus": "RESEARCH 03 / VERSION 0.2"
+}

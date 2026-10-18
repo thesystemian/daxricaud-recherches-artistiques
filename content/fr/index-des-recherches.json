@@ -1,0 +1,70 @@
+{
+  "language": "fr",
+  "slug": "index-des-recherches",
+  "title": "Index des recherches",
+  "eyebrow": "INDEX PUBLIC / VERSION 1.4",
+  "introduction": "Une entrée pour chaque recherche artistique publiée. L’index relie les états du Registre aux concepts, protocoles, archives et occurrences qui les constituent.",
+    "legendLinkLabel": "Lire la légende critique complète →",
+  "entries": [
+    {
+      "number": "01",
+      "slug": "signatures-temporelles",
+      "state": "ACTIVE",
+      "version": "0.3",
+      "title": "Signatures temporelles",
+      "summary": "Une date et une heure inscrites au moment de la clôture deviennent forme, identifiant, indice et point d’entrée dans une archive.",
+      "evidence": [
+        {"label": "Fait documenté", "text": "Sept photographies documentent des inscriptions existantes."},
+        {"label": "Interprétation", "text": "Leur lecture comme forme, indice et clôture relève de la formulation conceptuelle actuelle."}
+      ],
+      "data": [
+        {"label": "Archive", "value": "7 documents"},
+        {"label": "Période", "value": "2012-2026"},
+        {"label": "État", "value": "Archive ouverte"}
+      ],
+      "openLabel": "Ouvrir 01 →"
+    },
+    {
+      "number": "02",
+      "slug": "les-convocations-du-milieu",
+      "state": "ÉMERGENTE",
+      "version": "0.1",
+      "title": "Les Convocations du milieu",
+      "summary": "Un signal situé convoque une action. La recherche observe l’écart entre le flux, la réponse et l’archive qui tente d’en garder trace.",
+      "evidence": [
+        {"label": "Hypothèse", "text": "La relation entre signal, action et archive reste à éprouver."},
+        {"label": "Inconnu", "text": "Aucun signal probant ni aucune occurrence accomplie ne sont documentés à ce jour."}
+      ],
+      "data": [
+        {"label": "Direction", "value": "Signaux de rive"},
+        {"label": "Occurrences", "value": "Aucune publiée"},
+        {"label": "Situation", "value": "Maurice"}
+      ],
+      "openLabel": "Ouvrir 02 →"
+    },
+    {
+      "number": "03",
+      "slug": "etudes-de-lordinaire",
+      "state": "ÉMERGENTE",
+      "version": "0.2",
+      "title": "Études de l’ordinaire",
+      "summary": "Une action quotidienne réelle devient performance captée, puis matière d’une conversation, d’une question, d’un Poème de l’après-coup et d’une forme HTML éventuelle.",
+      "evidence": [
+        {"label": "Fait documenté", "text": "Trois études existent dans l’archive privée."},
+        {"label": "État public", "text": "L’introduction est publiée. Les captations, poèmes et conversations restent privés."}
+      ],
+      "data": [
+        {"label": "Études", "value": "3 documentées"},
+        {"label": "Publications", "value": "Aucune étude"},
+        {"label": "Situation initiale", "value": "Maurice"}
+      ],
+      "openLabel": "Ouvrir 03 →"
+    }
+  ],
+  "principle": {
+    "eyebrow": "PRINCIPE D’INDEXATION",
+    "title": "L’index grandit avec les recherches.",
+    "text": "Une recherche peut accueillir de nouvelles versions, directions ou occurrences sans être présentée comme achevée. Les numéros organisent les entrées, ils ne les classent pas par importance."
+  },
+  "footer": "SITE 1.4 / INDEX PUBLIC"
+}

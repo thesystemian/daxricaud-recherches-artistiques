@@ -1,0 +1,36 @@
+{
+  "language": "fr",
+  "slug": "registre",
+  "title": "Le Registre des recherches",
+  "eyebrow": "REGISTRE PUBLIC / VERSION 1.4",
+  "hero": {
+    "paragraphs": [
+      "Ce registre rassemble des recherches, des versions et des activations qui peuvent être interrompues, reprises, transformées ou clôturées.",
+      "Il ne décrit pas une progression linéaire. Il rend visibles les formes lorsqu'elles apparaissent, changent d'état ou demeurent ouvertes."
+    ],
+    "linkLabel": "Consulter les états ↓"
+  },
+  "register": {
+    "eyebrow": "TABLEAU DES ÉTATS",
+    "title": "Recherches publiées",
+    "note": "Le registre public est une sélection. Il ne reproduit pas le Kanban privé de l'artiste.",
+    "columns": [
+      {"id": "emergentes", "title": "Émergentes", "count": "02", "definition": "Recherches formulées, encore en phase d’épreuve.", "cards": [
+        {"number": "02", "version": "0.1", "title": "Les Convocations du milieu", "href": "../les-convocations-du-milieu/", "summary": "Comment un signal maritime local peut-il convoquer une action, puis produire une trace et une archive?", "metadata": [{"label": "État", "value": "Émergente"}, {"label": "Médiums", "value": "Protocole, action, données, archive"}, {"label": "Première direction", "value": "Signaux de rive"}], "opening": "Un milieu produit un signal. Le signal convoque une action. La réponse peut être accomplie, différée, empêchée ou refusée. La recherche observe l'écart entre le signal et cette réponse.", "evidenceLabel": "HYPOTHÈSE", "evidence": "Protocole à éprouver. Aucune occurrence constituée n'est publiée.", "linkLabel": "Ouvrir la recherche →"},
+        {"number": "03", "version": "0.2", "title": "Études de l’ordinaire", "href": "../etudes-de-lordinaire/", "summary": "Comment une action ordinaire réellement accomplie peut-elle produire une forme sans être embellie, dramatisée ou expliquée à l’avance ?", "metadata": [{"label": "État", "value": "Émergente"}, {"label": "Médiums", "value": "Performance, vidéo, poésie, HTML"}, {"label": "Premières études", "value": "3 documentées, aucune publiée"}], "opening": "Une action quotidienne réelle est filmée, racontée puis interrogée. Une question choisie par l’artiste ouvre un Poème de l’après-coup et peut conduire à une forme HTML.", "evidenceLabel": "FAIT DOCUMENTÉ", "evidence": "Trois études existent dans l’archive privée. Leurs matériaux ne sont pas publiés ici.", "linkLabel": "Lire l’introduction →"}
+      ]},
+      {"id": "actives", "title": "Actives", "count": "01", "definition": "Recherches qui produisent actuellement des formes.", "cards": [
+        {"number": "01", "version": "0.3", "title": "Signatures temporelles", "href": "../signatures-temporelles/", "summary": "Comment une date et une heure deviennent-elles une forme, un identifiant et une clôture?", "metadata": [{"label": "État", "value": "Active"}, {"label": "Médiums", "value": "Dessin, notation, protocole"}, {"label": "Dernière clôture", "value": "2026-10-04 | 14:18 UTC+4"}], "opening": "Sept documents datés de 2012 à 2026 montrent comment l'horodatage, ses séparateurs et ses cadres deviennent des formes.", "evidenceLabel": "FAIT DOCUMENTÉ", "image": "../assets/signatures-temporelles/2026-02-13-18h26.jpg", "imageAlt": "Détail de l'inscription du 13 février 2026 à 18h26, date et heure reliées par un underscore", "caption": "2026-02-13 | 18:26. Vue partielle de l'inscription, parmi sept documents d'archive.", "linkLabel": "Ouvrir la recherche →"}
+      ]},
+      {"id": "interrompues", "title": "Interrompues", "count": "00", "definition": "Recherches arrêtées sans être rejetées.", "empty": "Aucune recherche publiée."},
+      {"id": "cloturees", "title": "Clôturées", "count": "00", "definition": "Œuvres ou séries considérées comme complètes.", "empty": "Aucune recherche publiée."},
+      {"id": "transformees", "title": "Transformées", "count": "00", "definition": "Recherches devenues autre chose.", "empty": "Aucune recherche publiée."}
+    ]
+  },
+  "method": {"eyebrow": "MÉTHODE", "title": "Chaque recherche a sa propre temporalité.", "paragraphs": ["Une œuvre peut être achevée. Une recherche peut rester ouverte, s'interrompre, reprendre ou donner naissance à une autre forme.", "Les états ne classent pas une réussite. Le protocole rend visibles les conditions, les variations, les passages et les moments de fin."]},
+  "criticalLegend": {"eyebrow": "LÉGENDE CRITIQUE", "title": "Distinguer ce qui est attesté de ce qui reste à éprouver.", "entries": [{"label": "Fait documenté", "text": "Un élément appuyé par un document ou une source identifiée, dans les limites de cette preuve."}, {"label": "Interprétation", "text": "Une lecture proposée à partir des documents, distincte de ce qu'ils attestent directement."}, {"label": "Hypothèse", "text": "Une proposition ou un protocole à mettre à l'épreuve."}, {"label": "Non vérifié", "text": "Une information mentionnée dont la vérification n'a pas été établie."}, {"label": "Inconnu", "text": "Une donnée manquante ou une question sans réponse à ce stade."}]},
+  "artist": {"eyebrow": "DAX RICAUD", "title": "Artiste.", "text": "Sa pratique conceptuelle se construit à partir de recherches, de gestes, de protocoles et de situations. Selon les nécessités de chaque œuvre, elle peut mobiliser le dessin, la peinture, la photographie, la vidéo, l'action ou des formes d'archive.", "linkLabel": "Découvrir la démarche ↗", "portraitAlt": "Portrait de Dax Ricaud au foulard rouge", "portraitCaption": "PORTRAIT, ÉTAT CHROMATIQUE 01."},
+  "contact": {"eyebrow": "CONTACT", "title": "Échanger autour d'une recherche.", "text": "Pour une exposition, une activation, une collaboration ou une conversation autour du travail.", "email": "dax@daxricaud.com"},
+  "fibonacci": {"eyebrow": "FIBONACCI / MESURE TEMPORELLE EXPÉRIMENTALE", "origin": "DEPUIS LE 2026-10-06 | 08:32 UTC+4", "text": "Une seconde écoulée fait avancer d'un rang dans la suite. Le compteur affiche ce rang, pas la valeur du nombre de Fibonacci. Il met en regard le temps continu du site et les temporalités discontinues des recherches : son intérêt reste à éprouver dans la pratique, sans mesurer une productivité.", "label": "RANG DU TERME"},
+  "footer": "SITE 1.4 / REGISTRE PUBLIC"
+}

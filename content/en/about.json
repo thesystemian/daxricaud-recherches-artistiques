@@ -1,0 +1,35 @@
+{
+  "language": "en",
+  "slug": "about",
+  "title": "Artist.",
+  "location": "Based in Mauritius",
+  "eyebrow": "DAX RICAUD",
+  "lead": "Dax Ricaud develops a conceptual practice built through research, gestures, protocols and situations.",
+  "paragraphs": [
+    "According to the needs of each work, it may draw on drawing, painting, photography, video or archival forms. These media are not fixed categories: they become tools when a research project makes them necessary.",
+    "Trained in camera work and editing by an institutional filmmaker, he reactivates the still or moving image when it can attest to an action, a time, an absence or a transformation."
+  ],
+  "portrait": {
+    "alt": "Portrait of Dax Ricaud wearing a red scarf",
+    "caption": "PORTRAIT, ÉTAT CHROMATIQUE 01."
+  },
+  "registerPrinciple": {
+    "eyebrow": "THE REGISTER",
+    "title": "Giving a state to forms that do not follow a straight line.",
+    "paragraphs": [
+      "The Research Register does not follow a path from ideas to finished works. It also holds forms in progress, resumed, interrupted or transformed.",
+      "A state does not judge the work. It makes a mode of existence visible, without forcing research to end in order to be recognised."
+    ]
+  },
+  "contact": {
+    "eyebrow": "CONTACT AND LINKS",
+    "title": "Start a conversation around a research project.",
+    "text": "For an exhibition, an activation, a collaboration or a conversation around the work.",
+    "email": "dax@daxricaud.com",
+    "links": [
+      {"label": "Instagram, visual fragments ↗", "url": "https://www.instagram.com/daxricaud/"},
+      {"label": "LinkedIn, professional activity ↗", "url": "https://www.linkedin.com/in/daxricaud/"}
+    ]
+  },
+  "footer": "SITE 1.4 / ABOUT"
+}

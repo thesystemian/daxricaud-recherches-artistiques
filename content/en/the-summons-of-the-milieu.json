@@ -1,0 +1,67 @@
+{
+  "language": "en",
+  "slug": "the-summons-of-the-milieu",
+  "researchNumber": "02",
+  "title": "The Summons of the Milieu",
+  "state": "Emerging",
+  "version": "0.1",
+  "question": "How can a local maritime signal summon an action, then produce an inscription and an archive?",
+  "metadata": [
+    {"label": "State", "value": "Emerging"},
+    {"label": "Location", "value": "Mauritius"},
+    {"label": "First direction", "value": "Shore Signals"},
+    {"label": "Published occurrences", "value": "None"}
+  ],
+  "intro": {
+    "eyebrow": "WORKING PRINCIPLE",
+    "title": "A milieu produces a signal. The signal summons an action.",
+    "evidenceLabel": "Hypothesis",
+    "evidenceNote": "The principle and chain below describe a proposed protocol, not a completed action or a demonstrated signal-response relationship.",
+    "paragraphs": [
+      "The research organises an encounter between a remotely transmitted flow, a situated body and a support capable of retaining an inscription.",
+      "Data does not mechanically command the body. It summons it. The response may be completed, delayed, prevented, refused or remain impossible to verify.",
+      "The work lies neither in the data nor in the action alone. It is built in the gap between them, in the conditions of the response and in the necessarily incomplete archive that attempts to retain it."
+    ]
+  },
+  "process": {
+    "eyebrow": "INDEXICAL CHAIN",
+    "title": "From flow to register.",
+    "note": "Each passage may introduce loss, delay, contradiction or prevention. These gaps are recorded rather than erased afterwards.",
+    "steps": [
+      {"number": "01", "title": "Milieu", "text": "A maritime, meteorological or port context."},
+      {"number": "02", "title": "Flow", "text": "Data received through an identifiable source."},
+      {"number": "03", "title": "Signal", "text": "An element of the flow is selected by a rule."},
+      {"number": "04", "title": "Summons", "text": "The signal opens the possibility of a response."},
+      {"number": "05", "title": "Action", "text": "The body completes, delays, refuses or cannot act."},
+      {"number": "06", "title": "Inscription", "text": "A material, optical, temporal or textual form remains."},
+      {"number": "07", "title": "Archive", "text": "Sources, master files, traces and notes are preserved, with a potentially private part."},
+      {"number": "08", "title": "Register", "text": "A public selection identifies occurrences and connects their documents."}
+    ]
+  },
+  "direction": {
+    "index": "02.01",
+    "eyebrow": "FIRST DIRECTION",
+    "title": "Shore Signals",
+    "evidenceLabel": "Unknown",
+    "evidenceNote": "No proven signal or completed occurrence is documented to date. The source, selection rule and reception conditions remain to be established and verified.",
+    "lead": "Around Port Louis, a maritime or port signal could summon a situated action, then produce an inscription and a documentary deposit.",
+    "elements": [
+      {"title": "Signal", "text": "Real, dated data from an identifiable source, including its delays and limits."},
+      {"title": "Response", "text": "A run, a walk, deliberate stillness, a delay or an explicitly stated refusal."},
+      {"title": "Inscription", "text": "A graphic notation, photograph, short video or dated text."},
+      {"title": "Archive", "text": "A lightweight register that also retains absences, contradictions and prevented actions."}
+    ]
+  },
+  "occurrences": {
+    "eyebrow": "REGISTER OF OCCURRENCES",
+    "title": "No occurrence has yet been constituted.",
+    "count": "00",
+    "text": "Field studies, reception tests and protocol hypotheses remain research material. An occurrence will enter this register only when its signal, action, inscription and archival conditions have been documented."
+  },
+  "openState": {
+    "eyebrow": "OPEN STATE",
+    "title": "The first occurrence must still test the chain.",
+    "text": "Action will not be simulated merely to fill the register. The page will remain open until a real signal produces a verifiable situation and inscription."
+  },
+  "footerStatus": "RESEARCH 02 / VERSION 0.1"
+}

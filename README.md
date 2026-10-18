@@ -6,6 +6,14 @@ Version statique bilingue du site `Le Registre des recherches`.
 
 La nouvelle image publique `assets/dax-ricaud-foulard-rouge-ardoise.png` est préparée pour les accueils FR et EN ainsi que les pages `À propos` et `About`. L'ancienne image `assets/dax-ricaud-portrait-insta-filtre-ardoise.png` est conservée. Cette mise à jour est publiée dans la version 1.5 au commit `ab2df43`. L'ancienne image reste conservée dans le dépôt.
 
+## Administration du contenu
+
+L'interface Sveltia CMS est disponible à `https://daxricaud.com/admin/`. Elle ne donne accès qu'aux 13 fichiers JSON déjà sélectionnés pour le site public, dans `content/`. Les templates, le générateur et le workflow GitHub Actions sont présents dans ce dépôt pour reconstruire les pages après une modification validée.
+
+Le CMS utilise le workflow éditorial : une modification est enregistrée dans une branche et doit être relue avant fusion dans `main`. Après fusion, GitHub Actions régénère les fichiers HTML publics. Aucun fichier du vault privé n'est connecté à Sveltia CMS.
+
+Pour la première connexion, Sveltia propose une authentification GitHub par token personnel. Ne copie jamais un token ou un secret dans une conversation. Les règles de contenu et la liste des données interdites sont documentées dans `EDITER-LE-CONTENU.md`.
+
 ## Ouvrir localement
 
 Depuis le dossier exact `Art/RecherchesArtistiques/RegistrePublic/Sources/`:

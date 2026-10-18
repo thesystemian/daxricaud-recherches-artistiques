@@ -1,0 +1,8 @@
+{
+  "language": "en",
+  "slug": "accueil-alternatif",
+  "route": "/en/",
+  "inherits": "en/registre.json",
+  "title": "The Research Register",
+  "note": "This file documents the preserved English route alias. Its public content must remain identical to content/en/registre.json."
+}

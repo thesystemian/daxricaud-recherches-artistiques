@@ -1,0 +1,67 @@
+{
+  "language": "fr",
+  "slug": "les-convocations-du-milieu",
+  "researchNumber": "02",
+  "title": "Les Convocations du milieu",
+  "state": "Émergente",
+  "version": "0.1",
+  "question": "Comment un signal maritime local peut-il convoquer une action, puis produire une inscription et une archive?",
+  "metadata": [
+    {"label": "État", "value": "Émergente"},
+    {"label": "Situation", "value": "Maurice"},
+    {"label": "Première direction", "value": "Signaux de rive"},
+    {"label": "Occurrences publiées", "value": "Aucune"}
+  ],
+  "intro": {
+    "eyebrow": "PRINCIPE DE TRAVAIL",
+    "title": "Un milieu produit un signal. Le signal convoque une action.",
+    "evidenceLabel": "Hypothèse",
+    "evidenceNote": "Le principe et la chaîne ci-dessous décrivent un protocole envisagé, non une action accomplie ni une relation signal-réponse démontrée.",
+    "paragraphs": [
+      "La recherche organise une rencontre entre un flux transmis à distance, un corps situé et un support capable de conserver une inscription.",
+      "La donnée ne commande pas mécaniquement le corps. Elle le convoque. La réponse peut être accomplie, différée, empêchée, refusée ou demeurer non vérifiable.",
+      "L’œuvre ne réside ni dans la donnée ni dans l’action seules. Elle se construit dans leur écart, dans les conditions de la réponse et dans l’archive nécessairement incomplète qui tente d’en garder trace."
+    ]
+  },
+  "process": {
+    "eyebrow": "CHAÎNE INDICIELLE",
+    "title": "Du flux au registre.",
+    "note": "Chaque passage peut introduire une perte, un délai, une contradiction ou un empêchement. Ces écarts sont consignés, pas effacés après coup.",
+    "steps": [
+      {"number": "01", "title": "Milieu", "text": "Un contexte maritime, météorologique ou portuaire."},
+      {"number": "02", "title": "Flux", "text": "Une donnée reçue par une source identifiable."},
+      {"number": "03", "title": "Signal", "text": "Un élément du flux est retenu par une règle."},
+      {"number": "04", "title": "Convocation", "text": "Le signal ouvre la possibilité d’une réponse."},
+      {"number": "05", "title": "Action", "text": "Le corps accomplit, diffère, refuse ou ne peut agir."},
+      {"number": "06", "title": "Inscription", "text": "Une forme matérielle, optique, temporelle ou textuelle demeure."},
+      {"number": "07", "title": "Archive", "text": "Sources, fichiers maîtres, traces et notes sont conservés, avec une part potentiellement privée."},
+      {"number": "08", "title": "Registre", "text": "Une sélection publique identifie les occurrences et relie leurs documents."}
+    ]
+  },
+  "direction": {
+    "index": "02.01",
+    "eyebrow": "PREMIÈRE DIRECTION",
+    "title": "Signaux de rive",
+    "evidenceLabel": "Inconnu",
+    "evidenceNote": "Aucun signal probant ni aucune occurrence accomplie ne sont documentés à ce jour. La source, la règle de sélection et les conditions de réception restent à établir et à vérifier.",
+    "lead": "Autour de Port-Louis, un signal maritime ou portuaire pourrait convoquer une action située, puis produire une inscription et un dépôt documentaire.",
+    "elements": [
+      {"title": "Signal", "text": "Une donnée réelle, datée, issue d’une source identifiable, avec ses retards et ses limites."},
+      {"title": "Réponse", "text": "Une course, une marche, une immobilité, un report ou un refus explicitement formulé."},
+      {"title": "Inscription", "text": "Une notation graphique, une photographie, une vidéo courte ou un texte daté."},
+      {"title": "Archive", "text": "Un registre léger qui conserve aussi les absences, contradictions et actions empêchées."}
+    ]
+  },
+  "occurrences": {
+    "eyebrow": "REGISTRE DES OCCURRENCES",
+    "title": "Aucune occurrence constituée à ce jour.",
+    "count": "00",
+    "text": "Les repérages, tests de réception et hypothèses de protocole restent des matériaux de recherche. Une occurrence n’entrera ici que lorsque son signal, son action, son inscription et ses conditions d’archivage seront documentés."
+  },
+  "openState": {
+    "eyebrow": "ÉTAT OUVERT",
+    "title": "La première occurrence doit encore éprouver la chaîne.",
+    "text": "Le passage à l’action ne sera pas simulé pour remplir le registre. La page restera ouverte jusqu’à ce qu’un signal réel produise une situation et une inscription vérifiables."
+  },
+  "footerStatus": "RECHERCHE 02 / VERSION 0.1"
+}

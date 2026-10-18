@@ -1,0 +1,2883 @@
+{
+  "$schema": "https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json",
+  "backend": {
+    "name": "github",
+    "repo": "thesystemian/daxricaud-recherches-artistiques",
+    "branch": "main"
+  },
+  "publish_mode": "editorial",
+  "media_folder": "assets",
+  "public_folder": "/assets",
+  "collections": [
+    {
+      "name": "public-content",
+      "label": "Contenus publics",
+      "description": "Textes, archives et métadonnées déjà sélectionnés pour le site public. Aucun contenu privé du vault ne doit être ajouté ici.",
+      "files": [
+        {
+          "name": "a-propos",
+          "label": "FR / Artiste.",
+          "file": "content/fr/a-propos.json",
+          "format": "json",
+          "preview_path": "/a-propos/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "location",
+              "label": "Location",
+              "widget": "string"
+            },
+            {
+              "name": "eyebrow",
+              "label": "Eyebrow",
+              "widget": "string"
+            },
+            {
+              "name": "lead",
+              "label": "Lead",
+              "widget": "string"
+            },
+            {
+              "name": "paragraphs",
+              "label": "Paragraphs",
+              "widget": "list",
+              "field": {
+                "name": "item",
+                "label": "Item",
+                "widget": "text"
+              }
+            },
+            {
+              "name": "portrait",
+              "label": "Portrait",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "alt",
+                  "label": "Alt",
+                  "widget": "string"
+                },
+                {
+                  "name": "caption",
+                  "label": "Caption",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "registerPrinciple",
+              "label": "Registerprinciple",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "text"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "contact",
+              "label": "Contact",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "string"
+                },
+                {
+                  "name": "email",
+                  "label": "Email",
+                  "widget": "string"
+                },
+                {
+                  "name": "links",
+                  "label": "Links",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Label",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "url",
+                      "label": "Url",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "footer",
+              "label": "Footer",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "etudes-de-lordinaire",
+          "label": "FR / Études de l’ordinaire",
+          "file": "content/fr/etudes-de-lordinaire.json",
+          "format": "json",
+          "preview_path": "/etudes-de-lordinaire/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "researchNumber",
+              "label": "Researchnumber",
+              "widget": "string"
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "state",
+              "label": "State",
+              "widget": "string"
+            },
+            {
+              "name": "version",
+              "label": "Version",
+              "widget": "string"
+            },
+            {
+              "name": "question",
+              "label": "Question",
+              "widget": "string"
+            },
+            {
+              "name": "metadata",
+              "label": "Metadata",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "label",
+                  "label": "Label",
+                  "widget": "string"
+                },
+                {
+                  "name": "value",
+                  "label": "Value",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "intro",
+              "label": "Intro",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceLabel",
+                  "label": "Evidencelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "text"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "process",
+              "label": "Process",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "note",
+                  "label": "Note",
+                  "widget": "string"
+                },
+                {
+                  "name": "steps",
+                  "label": "Steps",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "number",
+                      "label": "Number",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "studies",
+              "label": "Studies",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "index",
+                  "label": "Index",
+                  "widget": "string"
+                },
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceLabel",
+                  "label": "Evidencelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceNote",
+                  "label": "Evidencenote",
+                  "widget": "text"
+                },
+                {
+                  "name": "elements",
+                  "label": "Elements",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "archive",
+              "label": "Archive",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "count",
+                  "label": "Count",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "openState",
+              "label": "Openstate",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "footerStatus",
+              "label": "Footerstatus",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "index-des-recherches",
+          "label": "FR / Index des recherches",
+          "file": "content/fr/index-des-recherches.json",
+          "format": "json",
+          "preview_path": "/index-des-recherches/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "eyebrow",
+              "label": "Eyebrow",
+              "widget": "string"
+            },
+            {
+              "name": "introduction",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "legendLinkLabel",
+              "label": "Legendlinklabel",
+              "widget": "string"
+            },
+            {
+              "name": "entries",
+              "label": "Entries",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "number",
+                  "label": "Number",
+                  "widget": "string"
+                },
+                {
+                  "name": "slug",
+                  "label": "Slug",
+                  "widget": "string",
+                  "readonly": true
+                },
+                {
+                  "name": "state",
+                  "label": "State",
+                  "widget": "string"
+                },
+                {
+                  "name": "version",
+                  "label": "Version",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "summary",
+                  "label": "Summary",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidence",
+                  "label": "Evidence",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Label",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                },
+                {
+                  "name": "data",
+                  "label": "Data",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Label",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "value",
+                      "label": "Value",
+                      "widget": "string"
+                    }
+                  ]
+                },
+                {
+                  "name": "openLabel",
+                  "label": "Openlabel",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "principle",
+              "label": "Principle",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "footer",
+              "label": "Footer",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "les-convocations-du-milieu",
+          "label": "FR / Les Convocations du milieu",
+          "file": "content/fr/les-convocations-du-milieu.json",
+          "format": "json",
+          "preview_path": "/les-convocations-du-milieu/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "researchNumber",
+              "label": "Researchnumber",
+              "widget": "string"
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "state",
+              "label": "State",
+              "widget": "string"
+            },
+            {
+              "name": "version",
+              "label": "Version",
+              "widget": "string"
+            },
+            {
+              "name": "question",
+              "label": "Question",
+              "widget": "string"
+            },
+            {
+              "name": "metadata",
+              "label": "Metadata",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "label",
+                  "label": "Label",
+                  "widget": "string"
+                },
+                {
+                  "name": "value",
+                  "label": "Value",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "intro",
+              "label": "Intro",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceLabel",
+                  "label": "Evidencelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceNote",
+                  "label": "Evidencenote",
+                  "widget": "string"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "process",
+              "label": "Process",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "note",
+                  "label": "Note",
+                  "widget": "string"
+                },
+                {
+                  "name": "steps",
+                  "label": "Steps",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "number",
+                      "label": "Number",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "direction",
+              "label": "Direction",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "index",
+                  "label": "Index",
+                  "widget": "string"
+                },
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceLabel",
+                  "label": "Evidencelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceNote",
+                  "label": "Evidencenote",
+                  "widget": "text"
+                },
+                {
+                  "name": "lead",
+                  "label": "Lead",
+                  "widget": "text"
+                },
+                {
+                  "name": "elements",
+                  "label": "Elements",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "occurrences",
+              "label": "Occurrences",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "count",
+                  "label": "Count",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "openState",
+              "label": "Openstate",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "footerStatus",
+              "label": "Footerstatus",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "registre",
+          "label": "FR / Le Registre des recherches",
+          "file": "content/fr/registre.json",
+          "format": "json",
+          "preview_path": "/fr/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "eyebrow",
+              "label": "Eyebrow",
+              "widget": "string"
+            },
+            {
+              "name": "hero",
+              "label": "Hero",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "name": "linkLabel",
+                  "label": "Linklabel",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "register",
+              "label": "Register",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "note",
+                  "label": "Note",
+                  "widget": "string"
+                },
+                {
+                  "name": "columns",
+                  "label": "Columns",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "id",
+                      "label": "Id",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "count",
+                      "label": "Count",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "definition",
+                      "label": "Definition",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "cards",
+                      "label": "Cards",
+                      "widget": "list",
+                      "fields": [
+                        {
+                          "name": "number",
+                          "label": "Number",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "version",
+                          "label": "Version",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "title",
+                          "label": "Title",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "href",
+                          "label": "Href",
+                          "widget": "string",
+                          "readonly": true
+                        },
+                        {
+                          "name": "summary",
+                          "label": "Summary",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "metadata",
+                          "label": "Metadata",
+                          "widget": "list",
+                          "fields": [
+                            {
+                              "name": "label",
+                              "label": "Label",
+                              "widget": "string"
+                            },
+                            {
+                              "name": "value",
+                              "label": "Value",
+                              "widget": "string"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "opening",
+                          "label": "Opening",
+                          "widget": "text"
+                        },
+                        {
+                          "name": "evidenceLabel",
+                          "label": "Evidencelabel",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "evidence",
+                          "label": "Evidence",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "linkLabel",
+                          "label": "Linklabel",
+                          "widget": "string"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "method",
+              "label": "Method",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "criticalLegend",
+              "label": "Criticallegend",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "entries",
+                  "label": "Entries",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Label",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "artist",
+              "label": "Artist",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                },
+                {
+                  "name": "linkLabel",
+                  "label": "Linklabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "portraitAlt",
+                  "label": "Portraitalt",
+                  "widget": "string"
+                },
+                {
+                  "name": "portraitCaption",
+                  "label": "Portraitcaption",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "contact",
+              "label": "Contact",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "string"
+                },
+                {
+                  "name": "email",
+                  "label": "Email",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "fibonacci",
+              "label": "Fibonacci",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "origin",
+                  "label": "Origin",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                },
+                {
+                  "name": "label",
+                  "label": "Label",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "footer",
+              "label": "Footer",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "signatures-temporelles",
+          "label": "FR / Signatures temporelles",
+          "file": "content/fr/signatures-temporelles.json",
+          "format": "json",
+          "preview_path": "/signatures-temporelles/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "researchNumber",
+              "label": "Researchnumber",
+              "widget": "string"
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "state",
+              "label": "State",
+              "widget": "string"
+            },
+            {
+              "name": "version",
+              "label": "Version",
+              "widget": "string"
+            },
+            {
+              "name": "question",
+              "label": "Question",
+              "widget": "string"
+            },
+            {
+              "name": "metadata",
+              "label": "Metadata",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "stateLabel",
+                  "label": "Statelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "stateValue",
+                  "label": "Statevalue",
+                  "widget": "string"
+                },
+                {
+                  "name": "mediaLabel",
+                  "label": "Medialabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "mediaValue",
+                  "label": "Mediavalue",
+                  "widget": "string"
+                },
+                {
+                  "name": "archiveLabel",
+                  "label": "Archivelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "archiveValue",
+                  "label": "Archivevalue",
+                  "widget": "string"
+                },
+                {
+                  "name": "corpusLabel",
+                  "label": "Corpuslabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "corpusValue",
+                  "label": "Corpusvalue",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "definition",
+              "label": "Definition",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceLabel",
+                  "label": "Evidencelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceNote",
+                  "label": "Evidencenote",
+                  "widget": "text"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "process",
+              "label": "Process",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "note",
+                  "label": "Note",
+                  "widget": "string"
+                },
+                {
+                  "name": "steps",
+                  "label": "Steps",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "number",
+                      "label": "Number",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "archive",
+              "label": "Archive",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceLabel",
+                  "label": "Evidencelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceNote",
+                  "label": "Evidencenote",
+                  "widget": "text"
+                },
+                {
+                  "name": "documentLabel",
+                  "label": "Documentlabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "name": "entries",
+                  "label": "Entries",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "number",
+                      "label": "Number",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "entryClass",
+                      "label": "Entryclass",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "imageClass",
+                      "label": "Imageclass",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "image",
+                      "label": "Image",
+                      "widget": "string",
+                      "readonly": true
+                    },
+                    {
+                      "name": "alt",
+                      "label": "Alt",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "date",
+                      "label": "Date",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "textBefore",
+                      "label": "Textbefore",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "citeTitle",
+                      "label": "Citetitle",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "textAfter",
+                      "label": "Textafter",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "openState",
+              "label": "Openstate",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "footerStatus",
+              "label": "Footerstatus",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "about",
+          "label": "EN / Artist.",
+          "file": "content/en/about.json",
+          "format": "json",
+          "preview_path": "/en/about/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "location",
+              "label": "Location",
+              "widget": "string"
+            },
+            {
+              "name": "eyebrow",
+              "label": "Eyebrow",
+              "widget": "string"
+            },
+            {
+              "name": "lead",
+              "label": "Lead",
+              "widget": "string"
+            },
+            {
+              "name": "paragraphs",
+              "label": "Paragraphs",
+              "widget": "list",
+              "field": {
+                "name": "item",
+                "label": "Item",
+                "widget": "text"
+              }
+            },
+            {
+              "name": "portrait",
+              "label": "Portrait",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "alt",
+                  "label": "Alt",
+                  "widget": "string"
+                },
+                {
+                  "name": "caption",
+                  "label": "Caption",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "registerPrinciple",
+              "label": "Registerprinciple",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "text"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "contact",
+              "label": "Contact",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "string"
+                },
+                {
+                  "name": "email",
+                  "label": "Email",
+                  "widget": "string"
+                },
+                {
+                  "name": "links",
+                  "label": "Links",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Label",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "url",
+                      "label": "Url",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "footer",
+              "label": "Footer",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "accueil-alternatif",
+          "label": "EN / The Research Register",
+          "file": "content/en/accueil-alternatif.json",
+          "format": "json",
+          "preview_path": "/en/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "route",
+              "label": "Route",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "note",
+              "label": "Note",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "registre",
+          "label": "EN / The Research Register",
+          "file": "content/en/registre.json",
+          "format": "json",
+          "preview_path": "/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "eyebrow",
+              "label": "Eyebrow",
+              "widget": "string"
+            },
+            {
+              "name": "hero",
+              "label": "Hero",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "name": "linkLabel",
+                  "label": "Linklabel",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "register",
+              "label": "Register",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "note",
+                  "label": "Note",
+                  "widget": "string"
+                },
+                {
+                  "name": "columns",
+                  "label": "Columns",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "id",
+                      "label": "Id",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "count",
+                      "label": "Count",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "definition",
+                      "label": "Definition",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "cards",
+                      "label": "Cards",
+                      "widget": "list",
+                      "fields": [
+                        {
+                          "name": "number",
+                          "label": "Number",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "version",
+                          "label": "Version",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "title",
+                          "label": "Title",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "href",
+                          "label": "Href",
+                          "widget": "string",
+                          "readonly": true
+                        },
+                        {
+                          "name": "summary",
+                          "label": "Summary",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "metadata",
+                          "label": "Metadata",
+                          "widget": "list",
+                          "fields": [
+                            {
+                              "name": "label",
+                              "label": "Label",
+                              "widget": "string"
+                            },
+                            {
+                              "name": "value",
+                              "label": "Value",
+                              "widget": "string"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "opening",
+                          "label": "Opening",
+                          "widget": "text"
+                        },
+                        {
+                          "name": "evidenceLabel",
+                          "label": "Evidencelabel",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "evidence",
+                          "label": "Evidence",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "linkLabel",
+                          "label": "Linklabel",
+                          "widget": "string"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "method",
+              "label": "Method",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "criticalLegend",
+              "label": "Criticallegend",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "entries",
+                  "label": "Entries",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Label",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "artist",
+              "label": "Artist",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                },
+                {
+                  "name": "linkLabel",
+                  "label": "Linklabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "portraitAlt",
+                  "label": "Portraitalt",
+                  "widget": "string"
+                },
+                {
+                  "name": "portraitCaption",
+                  "label": "Portraitcaption",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "contact",
+              "label": "Contact",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "string"
+                },
+                {
+                  "name": "email",
+                  "label": "Email",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "fibonacci",
+              "label": "Fibonacci",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "origin",
+                  "label": "Origin",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                },
+                {
+                  "name": "label",
+                  "label": "Label",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "footer",
+              "label": "Footer",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "research-index",
+          "label": "EN / Research Index",
+          "file": "content/en/research-index.json",
+          "format": "json",
+          "preview_path": "/en/research-index/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "eyebrow",
+              "label": "Eyebrow",
+              "widget": "string"
+            },
+            {
+              "name": "introduction",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "legendLinkLabel",
+              "label": "Legendlinklabel",
+              "widget": "string"
+            },
+            {
+              "name": "entries",
+              "label": "Entries",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "number",
+                  "label": "Number",
+                  "widget": "string"
+                },
+                {
+                  "name": "slug",
+                  "label": "Slug",
+                  "widget": "string",
+                  "readonly": true
+                },
+                {
+                  "name": "state",
+                  "label": "State",
+                  "widget": "string"
+                },
+                {
+                  "name": "version",
+                  "label": "Version",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "summary",
+                  "label": "Summary",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidence",
+                  "label": "Evidence",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Label",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                },
+                {
+                  "name": "data",
+                  "label": "Data",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Label",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "value",
+                      "label": "Value",
+                      "widget": "string"
+                    }
+                  ]
+                },
+                {
+                  "name": "openLabel",
+                  "label": "Openlabel",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "principle",
+              "label": "Principle",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "footer",
+              "label": "Footer",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "studies-of-the-ordinary",
+          "label": "EN / Studies of the Ordinary",
+          "file": "content/en/studies-of-the-ordinary.json",
+          "format": "json",
+          "preview_path": "/en/studies-of-the-ordinary/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "researchNumber",
+              "label": "Researchnumber",
+              "widget": "string"
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "state",
+              "label": "State",
+              "widget": "string"
+            },
+            {
+              "name": "version",
+              "label": "Version",
+              "widget": "string"
+            },
+            {
+              "name": "question",
+              "label": "Question",
+              "widget": "string"
+            },
+            {
+              "name": "metadata",
+              "label": "Metadata",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "label",
+                  "label": "Label",
+                  "widget": "string"
+                },
+                {
+                  "name": "value",
+                  "label": "Value",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "intro",
+              "label": "Intro",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceLabel",
+                  "label": "Evidencelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "text"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "process",
+              "label": "Process",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "note",
+                  "label": "Note",
+                  "widget": "string"
+                },
+                {
+                  "name": "steps",
+                  "label": "Steps",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "number",
+                      "label": "Number",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "studies",
+              "label": "Studies",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "index",
+                  "label": "Index",
+                  "widget": "string"
+                },
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceLabel",
+                  "label": "Evidencelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceNote",
+                  "label": "Evidencenote",
+                  "widget": "text"
+                },
+                {
+                  "name": "elements",
+                  "label": "Elements",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "archive",
+              "label": "Archive",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "count",
+                  "label": "Count",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "openState",
+              "label": "Openstate",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "footerStatus",
+              "label": "Footerstatus",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "temporal-signatures",
+          "label": "EN / Temporal Signatures",
+          "file": "content/en/temporal-signatures.json",
+          "format": "json",
+          "preview_path": "/en/temporal-signatures/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "researchNumber",
+              "label": "Researchnumber",
+              "widget": "string"
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "state",
+              "label": "State",
+              "widget": "string"
+            },
+            {
+              "name": "version",
+              "label": "Version",
+              "widget": "string"
+            },
+            {
+              "name": "question",
+              "label": "Question",
+              "widget": "string"
+            },
+            {
+              "name": "metadata",
+              "label": "Metadata",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "stateLabel",
+                  "label": "Statelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "stateValue",
+                  "label": "Statevalue",
+                  "widget": "string"
+                },
+                {
+                  "name": "mediaLabel",
+                  "label": "Medialabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "mediaValue",
+                  "label": "Mediavalue",
+                  "widget": "string"
+                },
+                {
+                  "name": "archiveLabel",
+                  "label": "Archivelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "archiveValue",
+                  "label": "Archivevalue",
+                  "widget": "string"
+                },
+                {
+                  "name": "corpusLabel",
+                  "label": "Corpuslabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "corpusValue",
+                  "label": "Corpusvalue",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "definition",
+              "label": "Definition",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceLabel",
+                  "label": "Evidencelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceNote",
+                  "label": "Evidencenote",
+                  "widget": "text"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "process",
+              "label": "Process",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "note",
+                  "label": "Note",
+                  "widget": "string"
+                },
+                {
+                  "name": "steps",
+                  "label": "Steps",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "number",
+                      "label": "Number",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "archive",
+              "label": "Archive",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceLabel",
+                  "label": "Evidencelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceNote",
+                  "label": "Evidencenote",
+                  "widget": "text"
+                },
+                {
+                  "name": "documentLabel",
+                  "label": "Documentlabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "name": "entries",
+                  "label": "Entries",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "number",
+                      "label": "Number",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "entryClass",
+                      "label": "Entryclass",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "imageClass",
+                      "label": "Imageclass",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "image",
+                      "label": "Image",
+                      "widget": "string",
+                      "readonly": true
+                    },
+                    {
+                      "name": "alt",
+                      "label": "Alt",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "date",
+                      "label": "Date",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "textBefore",
+                      "label": "Textbefore",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "citeTitle",
+                      "label": "Citetitle",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "textAfter",
+                      "label": "Textafter",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "openState",
+              "label": "Openstate",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "footerStatus",
+              "label": "Footerstatus",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "the-summons-of-the-milieu",
+          "label": "EN / The Summons of the Milieu",
+          "file": "content/en/the-summons-of-the-milieu.json",
+          "format": "json",
+          "preview_path": "/en/the-summons-of-the-milieu/",
+          "fields": [
+            {
+              "name": "language",
+              "label": "Language",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Slug",
+              "widget": "string",
+              "readonly": true
+            },
+            {
+              "name": "researchNumber",
+              "label": "Researchnumber",
+              "widget": "string"
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "state",
+              "label": "State",
+              "widget": "string"
+            },
+            {
+              "name": "version",
+              "label": "Version",
+              "widget": "string"
+            },
+            {
+              "name": "question",
+              "label": "Question",
+              "widget": "string"
+            },
+            {
+              "name": "metadata",
+              "label": "Metadata",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "label",
+                  "label": "Label",
+                  "widget": "string"
+                },
+                {
+                  "name": "value",
+                  "label": "Value",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "intro",
+              "label": "Intro",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceLabel",
+                  "label": "Evidencelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceNote",
+                  "label": "Evidencenote",
+                  "widget": "string"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "process",
+              "label": "Process",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "note",
+                  "label": "Note",
+                  "widget": "string"
+                },
+                {
+                  "name": "steps",
+                  "label": "Steps",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "number",
+                      "label": "Number",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "direction",
+              "label": "Direction",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "index",
+                  "label": "Index",
+                  "widget": "string"
+                },
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceLabel",
+                  "label": "Evidencelabel",
+                  "widget": "string"
+                },
+                {
+                  "name": "evidenceNote",
+                  "label": "Evidencenote",
+                  "widget": "text"
+                },
+                {
+                  "name": "lead",
+                  "label": "Lead",
+                  "widget": "string"
+                },
+                {
+                  "name": "elements",
+                  "label": "Elements",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "text",
+                      "label": "Text",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "occurrences",
+              "label": "Occurrences",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "count",
+                  "label": "Count",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "openState",
+              "label": "Openstate",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "eyebrow",
+                  "label": "Eyebrow",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "footerStatus",
+              "label": "Footerstatus",
+              "widget": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

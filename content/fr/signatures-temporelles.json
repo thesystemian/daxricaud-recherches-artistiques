@@ -1,0 +1,69 @@
+{
+  "language": "fr",
+  "slug": "signatures-temporelles",
+  "researchNumber": "01",
+  "title": "Signatures temporelles",
+  "state": "Active",
+  "version": "0.3",
+  "question": "Comment une date et une heure deviennent-elles une forme, un identifiant et une clôture?",
+  "metadata": {
+    "stateLabel": "État",
+    "stateValue": "Active",
+    "mediaLabel": "Médiums",
+    "mediaValue": "Dessin, peinture, notation, archive",
+    "archiveLabel": "Archive publiée",
+    "archiveValue": "7 documents, 2012-2026",
+    "corpusLabel": "État du corpus",
+    "corpusValue": "Archive ouverte"
+  },
+  "definition": {
+    "eyebrow": "DÉFINITION DE TRAVAIL",
+    "title": "Inscrire le moment où faire devient avoir fait.",
+    "evidenceLabel": "Interprétation",
+    "evidenceNote": "La définition et la chaîne de recherche proposent une lecture conceptuelle actuelle des inscriptions, non la preuve d’un concept déjà constitué à leurs dates.",
+    "paragraphs": [
+      "Une signature temporelle est l’inscription matérielle d’une date et d’une heure au moment où une œuvre est considérée comme close.",
+      "Elle n’est pas une simple métadonnée ajoutée après coup. Par sa forme, sa place et son écriture, elle entre dans l’œuvre. Elle identifie une occurrence, atteste une décision et rend visible un seuil temporel.",
+      "La recherche examine ce passage entre information et élément plastique, entre clôture et reprise possible, entre geste singulier et constitution progressive d’un registre. En 2026, l’underscore, le pipe, le cadre et le cercle montrent que le séparateur lui-même devient un opérateur plastique."
+    ]
+  },
+  "process": {
+    "eyebrow": "CHAÎNE DE RECHERCHE",
+    "title": "De la décision à l’archive.",
+    "note": "Chaque passage peut varier selon l’œuvre. La chaîne décrit une relation, pas une recette graphique fixe.",
+    "steps": [
+      {"number": "01", "title": "Faire", "text": "L’œuvre se construit dans son médium."},
+      {"number": "02", "title": "Clore", "text": "Une décision arrête provisoirement le faire."},
+      {"number": "03", "title": "Inscrire", "text": "La date et l’heure prennent une forme matérielle."},
+      {"number": "04", "title": "Documenter", "text": "Une image conserve l’inscription et son support."},
+      {"number": "05", "title": "Relier", "text": "Le document rejoint un registre ouvert à d’autres occurrences."}
+    ]
+  },
+  "archive": {
+    "eyebrow": "ARCHIVE PROVISOIRE / 2012-2026",
+    "title": "Sept inscriptions, plusieurs systèmes de liaison.",
+    "evidenceLabel": "Fait documenté",
+    "evidenceNote": "Les sept photographies documentent des inscriptions existantes. Elles ne suffisent pas, à elles seules, à établir les conditions exactes de clôture des œuvres. Les lectures de seuil ou d’opérateur plastique dans les descriptions relèvent de l’interprétation actuelle.",
+        "documentLabel": "Document d’archive, vue partielle de l’œuvre.",
+    "paragraphs": [
+      "Ces documents attestent que le geste d’horodatage existait avant la formulation actuelle de la recherche.",
+      "Ils ne prouvent pas que le concept était déjà constitué à ces dates. Les vues sont partielles et seront complétées lorsque les œuvres entières pourront être documentées.",
+      "Les trois entrées de 2026 relient désormais les antécédents à la recherche active. Elles révèlent une variation des signes qui séparent et assemblent la date, l’heure, le nom et parfois une indication propre à l’œuvre."
+    ],
+    "entries": [
+      {"number": "01", "entryClass": "archive-entry", "imageClass": "archive-image", "image": "assets/signatures-temporelles/2012-09-20-11h22.jpeg", "alt": "Inscription manuscrite au verso de l’œuvre Coupe 2 Fruits, datée du 20 septembre 2012 à 11h22", "date": "20.09.2012 | 11h22", "textBefore": "Verso de ", "citeTitle": "Coupe 2 Fruits", "textAfter": ". Le titre, les dimensions, le poids et les matériaux accompagnent l’horodatage.", "text": ""},
+      {"number": "02", "citeTitle": "", "entryClass": "archive-entry archive-entry-reverse", "imageClass": "archive-image", "image": "assets/signatures-temporelles/2013-01-14h28.jpeg", "alt": "Inscription manuscrite sur une œuvre en vannerie, janvier 2013 à 14h28", "date": "01.2013 | 14h28", "text": "Inscription portée sur une œuvre en vannerie. Le jour exact n’apparaît pas sur le document et demeure non renseigné."},
+      {"number": "03", "citeTitle": "", "entryClass": "archive-entry", "imageClass": "archive-image", "image": "assets/signatures-temporelles/2013-01-06-16h01.jpeg", "alt": "Détail d’un dessin portant une signature, la date du 6 janvier 2013 et l’heure 16h01", "date": "06.01.2013 | 16h01", "text": "Détail d’un dessin. La signature, la date et l’heure sont entourées et reliées à la composition par une même continuité graphique."},
+      {"number": "04", "citeTitle": "", "entryClass": "archive-entry archive-entry-reverse", "imageClass": "archive-image", "image": "assets/signatures-temporelles/2025-11-15-10h30.jpeg", "alt": "Inscription de Dax Ricaud sur le bord ou le verso d’une toile, datée du 15 novembre 2025 à 10h30", "date": "15.11.2025 | 10h30", "text": "Inscription portée sur le bord ou le verso d’une toile. Le temps de clôture accompagne matériellement le support."},
+      {"number": "05", "citeTitle": "", "entryClass": "archive-entry", "imageClass": "archive-image archive-image-wide", "image": "assets/signatures-temporelles/2026-01-22-18h53.jpg", "alt": "Date du 22 janvier 2026 encadrée, heure 18h53 entourée et mention Masse plus Rapport", "date": "22.01.2026 | 18h53", "text": "La date est encadrée, l’heure cerclée et la mention « MASSE + RAPPORT » prolongée dans un même dispositif linéaire. La notation organise visuellement plusieurs niveaux d’information."},
+      {"number": "06", "citeTitle": "", "entryClass": "archive-entry archive-entry-reverse", "imageClass": "archive-image archive-image-wide", "image": "assets/signatures-temporelles/2026-02-13-18h26.jpg", "alt": "Signature temporelle du 13 février 2026 à 18h26, reliée par un underscore et accompagnée du nom Dax entouré", "date": "13.02.2026_18:26", "text": "L’underscore relie la date à l’heure tandis que le nom, entouré sous la ligne, introduit un second niveau de signature. Le séparateur devient une forme visible."},
+      {"number": "07", "citeTitle": "", "entryClass": "archive-entry", "imageClass": "archive-image archive-image-wide", "image": "assets/signatures-temporelles/2026-09-05-12h47.jpg", "alt": "Signature temporelle du 5 septembre 2026 à 12h47, date et heure séparées par un pipe vertical", "date": "05.09.2026 | 12:47", "text": "Le pipe vertical sépare nettement la date et l’heure. Placée à la limite entre la peinture et le papier, l’inscription agit aussi comme un seuil dans la surface."}
+    ]
+  },
+  "openState": {
+    "eyebrow": "ÉTAT OUVERT",
+    "title": "Le registre est désormais relié au présent de la recherche.",
+    "text": "Les trois inscriptions de 2026 établissent cette continuité. Les prochaines entrées pourront associer au détail horodaté une vue d’ensemble de l’œuvre et les conditions de sa clôture, afin d’épaissir la chaîne documentaire."
+  },
+  "footerStatus": "RECHERCHE 01 / VERSION 0.3"
+}

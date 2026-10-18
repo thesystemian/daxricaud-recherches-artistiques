@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="À propos de Dax Ricaud, artiste basé à Maurice, dont la pratique conceptuelle mobilise plusieurs médiums."
+    />
+    <meta name="theme-color" content="#f7f6f2" />
+    <title>À propos | Dax Ricaud</title>
+    <link rel="stylesheet" href="../styles.css?v=1.4.0" />
+    <script src="../script.js?v=0.9.0" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#a-propos">Aller à la présentation</a>
+
+    <header class="site-header">
+      <a class="identity" href="../fr/" aria-label="Dax Ricaud, accueil">
+        <span>Dax Ricaud</span>
+        <small>Recherches artistiques</small>
+      </a>
+
+      <nav aria-label="Navigation principale">
+        <a href="../fr/#registre">Registre</a>
+        <a href="../index-des-recherches/">Index</a>
+        <a href="../fr/#methode">Méthode</a>
+        <span aria-current="page">À propos</span>
+        <a href="../fr/#contact">Contact</a>
+        <span class="language-switch" aria-label="Choisir la langue">
+          <a href="../en/about/" lang="en" hreflang="en">EN</a>
+          <span aria-hidden="true">|</span>
+          <span aria-current="page">FR</span>
+        </span>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section id="a-propos" class="about-page" aria-labelledby="about-title">
+        <div class="about-intro">
+          <div>
+            <p class="eyebrow">{{eyebrow}}</p>
+            <h1 id="about-title">{{title}}</h1>
+          </div>
+          <p class="about-location">{{location}}</p>
+        </div>
+
+        <div class="about-biography">
+          <div class="about-text">
+            <p class="about-lead">
+              {{lead}}
+            </p>
+            <p>
+              {{paragraphs.0}}
+            </p>
+            <p>
+              {{paragraphs.1}}
+            </p>
+          </div>
+
+          <figure class="portrait portrait-square">
+            <img
+              src="../assets/dax-ricaud-foulard-rouge-ardoise.png"
+              alt="{{portrait.alt}}"
+              fetchpriority="high"
+            />
+            <figcaption>{{portrait.caption}}</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="register-principle" aria-labelledby="principle-title">
+        <p class="eyebrow">{{registerPrinciple.eyebrow}}</p>
+        <h2 id="principle-title">{{registerPrinciple.title}}</h2>
+        <div class="statement-grid">
+          <p>
+            {{registerPrinciple.paragraphs.0}}
+          </p>
+          <p>
+            {{registerPrinciple.paragraphs.1}}
+          </p>
+        </div>
+      </section>
+
+      <section class="contact about-contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">{{contact.eyebrow}}</p>
+          <h2 id="contact-title">{{contact.title}}</h2>
+        </div>
+        <div class="contact-copy">
+          <p>{{contact.text}}</p>
+          <a class="contact-link" href="mailto:{{contact.email}}">dax@daxricaud.com</a>
+          <div class="external-links" aria-label="Présences externes">
+            <a href="{{contact.links.0.url}}">{{contact.links.0.label}}</a>
+            <a href="{{contact.links.1.url}}">{{contact.links.1.label}}</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Dax Ricaud. Tous droits réservés.</p>
+      <p class="footer-status">{{footer}}</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Dax Ricaud présente un registre de recherches artistiques: protocoles, systèmes, formes temporaires et œuvres activables."
+    />
+    <meta name="theme-color" content="#f7f6f2" />
+    <title>Dax Ricaud | Recherches artistiques</title>
+    <link rel="canonical" href="https://daxricaud.com/fr/" />
+    <link rel="alternate" hreflang="en" href="https://daxricaud.com/" />
+    <link rel="alternate" hreflang="fr" href="https://daxricaud.com/fr/" />
+    <link rel="alternate" hreflang="x-default" href="https://daxricaud.com/" />
+    <link rel="stylesheet" href="../styles.css?v=1.4.0" />
+    <script src="../script.js?v=0.9.0" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#registre">Aller au registre</a>
+
+    <header class="site-header">
+      <a class="identity" href="#top" aria-label="Dax Ricaud, accueil">
+        <span>Dax Ricaud</span>
+        <small>Recherches artistiques</small>
+      </a>
+
+      <nav aria-label="Navigation principale">
+        <a href="#registre">Registre</a>
+        <a href="../index-des-recherches/">Index</a>
+        <a href="#methode">Méthode</a>
+        <a href="../a-propos/">À propos</a>
+        <a href="#contact">Contact</a>
+        <span class="language-switch" aria-label="Choisir la langue">
+          <a href="../" lang="en" hreflang="en">EN</a>
+          <span aria-hidden="true">|</span>
+          <span aria-current="page">FR</span>
+        </span>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">{{eyebrow}}</p>
+        <div class="live-time" data-live-time>
+          <time id="live-timestamp">…</time>
+          <div class="time-meta">
+            <span>HEURE LOCALE / UTC+4</span>
+            <span id="live-seconds">00 SECONDES</span>
+          </div>
+          <div class="minute-track" aria-hidden="true">
+            <span id="minute-progress"></span>
+          </div>
+        </div>
+        <h1 id="hero-title">{{title}}</h1>
+        <p class="hero-copy">
+          {{hero.paragraphs.0}}
+        </p>
+        <p class="hero-copy secondary">
+          {{hero.paragraphs.1}}
+        </p>
+        <a class="text-link" href="#registre">{{hero.linkLabel}}</a>
+      </section>
+
+      <section id="registre" class="register" aria-labelledby="register-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">{{register.eyebrow}}</p>
+            <h2 id="register-title">{{register.title}}</h2>
+          </div>
+          <p class="section-note">
+            {{register.note}}
+          </p>
+        </div>
+
+        <div class="board" role="region" tabindex="0" aria-label="Tableau des états des recherches artistiques">
+          <section class="column" aria-labelledby="emergentes-title">
+            <header class="column-header">
+              <h3 id="emergentes-title">{{register.columns.0.title}}</h3>
+              <span>{{register.columns.0.count}}</span>
+            </header>
+            <p class="column-definition">{{register.columns.0.definition}}</p>
+
+            <article class="research-card">
+              <div class="card-meta">
+                <span>RECHERCHE {{register.columns.0.cards.0.number}}</span>
+                <span>VERSION {{register.columns.0.cards.0.version}}</span>
+              </div>
+              <h4><a class="research-card-title" href="{{register.columns.0.cards.0.href}}">{{register.columns.0.cards.0.title}}</a></h4>
+              <p>
+                {{register.columns.0.cards.0.summary}}
+              </p>
+              <dl>
+                <div>
+                  <dt>{{register.columns.0.cards.0.metadata.0.label}}</dt>
+                  <dd>{{register.columns.0.cards.0.metadata.0.value}}</dd>
+                </div>
+                <div>
+                  <dt>{{register.columns.0.cards.0.metadata.1.label}}</dt>
+                  <dd>{{register.columns.0.cards.0.metadata.1.value}}</dd>
+                </div>
+                <div>
+                  <dt>{{register.columns.0.cards.0.metadata.2.label}}</dt>
+                  <dd>{{register.columns.0.cards.0.metadata.2.value}}</dd>
+                </div>
+              </dl>
+              <div class="card-opening">
+                <p>
+                  {{register.columns.0.cards.0.opening}}
+                </p>
+                <p><span class="evidence-label">{{register.columns.0.cards.0.evidenceLabel}}</span><br />{{register.columns.0.cards.0.evidence}}</p>
+                <a href="../les-convocations-du-milieu/">{{register.columns.0.cards.0.linkLabel}}</a>
+              </div>
+            </article>
+
+            <article class="research-card">
+              <div class="card-meta">
+                <span>RECHERCHE {{register.columns.0.cards.1.number}}</span>
+                <span>VERSION {{register.columns.0.cards.1.version}}</span>
+              </div>
+              <h4><a class="research-card-title" href="{{register.columns.0.cards.1.href}}">{{register.columns.0.cards.1.title}}</a></h4>
+              <p>
+                {{register.columns.0.cards.1.summary}}
+              </p>
+              <dl>
+                <div>
+                  <dt>{{register.columns.0.cards.0.metadata.0.label}}</dt>
+                  <dd>{{register.columns.0.cards.0.metadata.0.value}}</dd>
+                </div>
+                <div>
+                  <dt>{{register.columns.0.cards.0.metadata.1.label}}</dt>
+                  <dd>{{register.columns.0.cards.1.metadata.1.value}}</dd>
+                </div>
+                <div>
+                  <dt>{{register.columns.0.cards.1.metadata.2.label}}</dt>
+                  <dd>{{register.columns.0.cards.1.metadata.2.value}}</dd>
+                </div>
+              </dl>
+              <div class="card-opening">
+                <p>
+                  {{register.columns.0.cards.1.opening}}
+                </p>
+                <p><span class="evidence-label">{{register.columns.0.cards.1.evidenceLabel}}</span><br />{{register.columns.0.cards.1.evidence}}</p>
+                <a href="../etudes-de-lordinaire/">{{register.columns.0.cards.1.linkLabel}}</a>
+              </div>
+            </article>
+          </section>
+
+          <section class="column" aria-labelledby="actives-title">
+            <header class="column-header">
+              <h3 id="actives-title">{{register.columns.1.title}}</h3>
+              <span>{{register.columns.1.count}}</span>
+            </header>
+            <p class="column-definition">{{register.columns.1.definition}}</p>
+
+            <article class="research-card">
+              <div class="card-meta">
+                <span>RECHERCHE {{register.columns.1.cards.0.number}}</span>
+                <span>VERSION {{register.columns.1.cards.0.version}}</span>
+              </div>
+              <h4><a class="research-card-title" href="{{register.columns.1.cards.0.href}}">{{register.columns.1.cards.0.title}}</a></h4>
+              <p>
+                {{register.columns.1.cards.0.summary}}
+              </p>
+              <dl>
+                <div>
+                  <dt>{{register.columns.0.cards.0.metadata.0.label}}</dt>
+                  <dd>{{register.columns.1.cards.0.metadata.0.value}}</dd>
+                </div>
+                <div>
+                  <dt>{{register.columns.0.cards.0.metadata.1.label}}</dt>
+                  <dd>{{register.columns.1.cards.0.metadata.1.value}}</dd>
+                </div>
+                <div>
+                  <dt>{{register.columns.1.cards.0.metadata.2.label}}</dt>
+                  <dd><time datetime="2026-10-04T14:18:00+04:00">{{register.columns.1.cards.0.metadata.2.value}}</time></dd>
+                </div>
+              </dl>
+              <div class="card-opening">
+                <p>
+                  {{register.columns.1.cards.0.opening}}
+                </p>
+                <figure class="card-document">
+                  <span class="evidence-label">{{register.columns.0.cards.1.evidenceLabel}}</span>
+                  <img src="{{register.columns.1.cards.0.image}}" alt="{{register.columns.1.cards.0.imageAlt}}" loading="lazy" />
+                  <figcaption>{{register.columns.1.cards.0.caption}}</figcaption>
+                </figure>
+                <a href="../signatures-temporelles/">{{register.columns.0.cards.0.linkLabel}}</a>
+              </div>
+            </article>
+          </section>
+
+          <section class="column" aria-labelledby="interrompues-title">
+            <header class="column-header">
+              <h3 id="interrompues-title">{{register.columns.2.title}}</h3>
+              <span>{{register.columns.2.count}}</span>
+            </header>
+            <p class="column-definition">{{register.columns.2.definition}}</p>
+            <div class="empty-state">{{register.columns.2.empty}}</div>
+          </section>
+
+          <section class="column" aria-labelledby="cloturees-title">
+            <header class="column-header">
+              <h3 id="cloturees-title">{{register.columns.3.title}}</h3>
+              <span>{{register.columns.2.count}}</span>
+            </header>
+            <p class="column-definition">{{register.columns.3.definition}}</p>
+            <div class="empty-state">{{register.columns.2.empty}}</div>
+          </section>
+
+          <section class="column" aria-labelledby="transformees-title">
+            <header class="column-header">
+              <h3 id="transformees-title">{{register.columns.4.title}}</h3>
+              <span>{{register.columns.2.count}}</span>
+            </header>
+            <p class="column-definition">{{register.columns.4.definition}}</p>
+            <div class="empty-state">{{register.columns.2.empty}}</div>
+          </section>
+        </div>
+      </section>
+
+      <section id="methode" class="statement" aria-labelledby="method-title">
+        <p class="eyebrow">{{method.eyebrow}}</p>
+        <h2 id="method-title">{{method.title}}</h2>
+        <div class="statement-grid">
+          <p>
+            {{method.paragraphs.0}}
+          </p>
+          <p>
+            {{method.paragraphs.1}}
+          </p>
+        </div>
+      </section>
+
+      <section id="legende" class="critical-legend" aria-labelledby="legend-title">
+        <p class="eyebrow">{{criticalLegend.eyebrow}}</p>
+        <h2 id="legend-title">{{criticalLegend.title}}</h2>
+        <dl>
+          <div><dt>{{criticalLegend.entries.0.label}}</dt><dd>{{criticalLegend.entries.0.text}}</dd></div>
+          <div><dt>{{criticalLegend.entries.1.label}}</dt><dd>{{criticalLegend.entries.1.text}}</dd></div>
+          <div><dt>{{criticalLegend.entries.2.label}}</dt><dd>{{criticalLegend.entries.2.text}}</dd></div>
+          <div><dt>{{criticalLegend.entries.3.label}}</dt><dd>{{criticalLegend.entries.3.text}}</dd></div>
+          <div><dt>{{criticalLegend.entries.4.label}}</dt><dd>{{criticalLegend.entries.4.text}}</dd></div>
+        </dl>
+      </section>
+
+      <section class="home-about" aria-labelledby="home-about-title">
+        <div class="home-about-grid">
+
+          <div class="home-about-copy">
+            <p class="eyebrow">{{artist.eyebrow}}</p>
+            <h2 id="home-about-title">{{artist.title}}</h2>
+            <p>
+              {{artist.text}}
+            </p>
+            <a class="text-link" href="../a-propos/">{{artist.linkLabel}}</a>
+          </div>
+          <figure class="portrait home-portrait portrait-square">
+            <img src="../assets/dax-ricaud-foulard-rouge-ardoise.png" alt="{{artist.portraitAlt}}" loading="lazy" />
+            <figcaption>{{artist.portraitCaption}}</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">{{contact.eyebrow}}</p>
+          <h2 id="contact-title">{{contact.title}}</h2>
+        </div>
+        <div class="contact-copy">
+          <p>
+            {{contact.text}}
+          </p>
+          <a class="contact-link" href="mailto:{{contact.email}}">
+            dax@daxricaud.com
+          </a>
+        </div>
+      </section>
+
+      <section class="fibonacci" aria-labelledby="fibonacci-title">
+        <div>
+          <p class="eyebrow" id="fibonacci-title">{{fibonacci.eyebrow}}</p>
+          <p class="fibonacci-origin">{{fibonacci.origin}}</p>
+          <p class="fibonacci-explanation">{{fibonacci.text}}</p>
+        </div>
+        <p class="fibonacci-current">
+          <span>{{fibonacci.label}}</span>
+          <output data-fibonacci-index>1</output>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Dax Ricaud. Tous droits réservés.</p>
+      <p class="footer-status">{{footer}}</p>
+    </footer>
+  </body>
+</html>
