@@ -2,6 +2,10 @@
 
 Version statique bilingue du site `Le Registre des recherches`.
 
+## Préparation version 1.5
+
+La nouvelle image publique `assets/dax-ricaud-foulard-rouge-ardoise.png` est préparée pour les accueils FR et EN ainsi que les pages `À propos` et `About`. L'ancienne image `assets/dax-ricaud-portrait-insta-filtre-ardoise.png` est conservée. Cette mise à jour est locale dans le dépôt de déploiement et reste soumise au contrôle avant publication.
+
 ## Ouvrir localement
 
 Depuis le dossier exact `Art/RecherchesArtistiques/RegistrePublic/Sources/`:
