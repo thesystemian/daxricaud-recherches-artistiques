@@ -4,7 +4,7 @@
   "title": "Artiste.",
   "location": "Basé à Maurice",
   "eyebrow": "DAX RICAUD",
-  "lead": "Dax Ricaud développe une pratique conceptuelle qui se construit à partir de recherches, de gestes, de protocoles et de situations.",
+  "lead": "Dax Ricaud développe une pratique conceptuelle qui se construit à partir de recherches, de gestes, de protocoles et de situations. [TEST CMS]",
   "paragraphs": [
     "Selon les nécessités de chaque œuvre, elle peut mobiliser le dessin, la peinture, la photographie, la vidéo ou des formes d'archive. Les médiums ne constituent pas des catégories fixes : ils deviennent des outils lorsque la recherche les rend nécessaires.",
     "Formé à la prise de vue et au montage auprès d'un réalisateur institutionnel, il réactive l'image fixe ou en mouvement lorsque celle-ci peut attester une action, un temps, une absence ou une transformation."
@@ -27,8 +27,14 @@
     "text": "Pour une exposition, une activation, une collaboration ou une conversation autour du travail.",
     "email": "dax@daxricaud.com",
     "links": [
-      {"label": "Instagram, fragments visuels ↗", "url": "https://www.instagram.com/daxricaud/"},
-      {"label": "LinkedIn, activité professionnelle ↗", "url": "https://www.linkedin.com/in/daxricaud/"}
+      {
+        "label": "Instagram, fragments visuels ↗",
+        "url": "https://www.instagram.com/daxricaud/"
+      },
+      {
+        "label": "LinkedIn, activité professionnelle ↗",
+        "url": "https://www.linkedin.com/in/daxricaud/"
+      }
     ]
   },
   "footer": "SITE 1.4 / À PROPOS"
