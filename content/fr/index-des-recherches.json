@@ -7,6 +7,24 @@
     "legendLinkLabel": "Lire la légende critique complète →",
   "entries": [
     {
+      "number": "03",
+      "slug": "etudes-de-lordinaire",
+      "state": "ACTIVE",
+      "version": "0.2",
+      "title": "Études de l’ordinaire",
+      "summary": "Une action quotidienne réelle devient performance captée, puis matière d’une conversation, d’une question, d’un Poème de l’après-coup et d’une forme HTML éventuelle.",
+      "evidence": [
+        {"label": "Fait documenté", "text": "Trois études existent dans l’archive privée."},
+        {"label": "État public", "text": "L’introduction est publiée. Les captations, poèmes et conversations restent privés."}
+      ],
+      "data": [
+        {"label": "Études", "value": "3 documentées"},
+        {"label": "Publications", "value": "Aucune étude"},
+        {"label": "Situation initiale", "value": "Maurice"}
+      ],
+      "openLabel": "Ouvrir 03 →"
+    },
+    {
       "number": "01",
       "slug": "signatures-temporelles",
       "state": "ACTIVE",
@@ -41,24 +59,6 @@
         {"label": "Situation", "value": "Maurice"}
       ],
       "openLabel": "Ouvrir 02 →"
-    },
-    {
-      "number": "03",
-      "slug": "etudes-de-lordinaire",
-      "state": "ÉMERGENTE",
-      "version": "0.2",
-      "title": "Études de l’ordinaire",
-      "summary": "Une action quotidienne réelle devient performance captée, puis matière d’une conversation, d’une question, d’un Poème de l’après-coup et d’une forme HTML éventuelle.",
-      "evidence": [
-        {"label": "Fait documenté", "text": "Trois études existent dans l’archive privée."},
-        {"label": "État public", "text": "L’introduction est publiée. Les captations, poèmes et conversations restent privés."}
-      ],
-      "data": [
-        {"label": "Études", "value": "3 documentées"},
-        {"label": "Publications", "value": "Aucune étude"},
-        {"label": "Situation initiale", "value": "Maurice"}
-      ],
-      "openLabel": "Ouvrir 03 →"
     }
   ],
   "principle": {
