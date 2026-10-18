@@ -5,7 +5,7 @@
     "repo": "thesystemian/daxricaud-recherches-artistiques",
     "branch": "main"
   },
-  "publish_mode": "editorial",
+  "publish_mode": "editorial_workflow",
   "media_folder": "assets",
   "public_folder": "/assets",
   "collections": [
@@ -798,7 +798,7 @@
           ]
         },
         {
-          "name": "registre",
+          "name": "registre-fr",
           "label": "FR / Le Registre des recherches",
           "file": "content/fr/registre.json",
           "format": "json",
@@ -1609,7 +1609,7 @@
           ]
         },
         {
-          "name": "registre",
+          "name": "registre-en",
           "label": "EN / The Research Register",
           "file": "content/en/registre.json",
           "format": "json",
